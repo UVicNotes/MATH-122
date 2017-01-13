@@ -1,0 +1,49 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "MATH 122\n\n\n\n\nInstructor\n: Laura Teshima\n\n\n\n\nTextbook\n\n\n\n\nTitle:\n Discrete Mathematics for Logic and Foundations\n\n\n\n\nAssessment\n\n\n\n\n\n\n\n\nTask\n\n\nWeight\n\n\n\n\n\n\n\n\n\n\nTake-home Assignments\n\n\n20%\n\n\n\n\n\n\nIn-class Assignments\n\n\n10%\n\n\n\n\n\n\nMidterm 1\n\n\n15%\n\n\n\n\n\n\nMidterm 2\n\n\n15%\n\n\n\n\n\n\nFinal Exam\n\n\n40%", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#math-122", 
+            "text": "Instructor : Laura Teshima", 
+            "title": "MATH 122"
+        }, 
+        {
+            "location": "/#textbook", 
+            "text": "Title:  Discrete Mathematics for Logic and Foundations", 
+            "title": "Textbook"
+        }, 
+        {
+            "location": "/#assessment", 
+            "text": "Task  Weight      Take-home Assignments  20%    In-class Assignments  10%    Midterm 1  15%    Midterm 2  15%    Final Exam  40%", 
+            "title": "Assessment"
+        }, 
+        {
+            "location": "/notes/introduction/", 
+            "text": "Introduction\n\n\nWhy Math 122?\n\n\nIt's thought in elementary school that everything builds up to calculus. This ignores a bunch of things like Analysis, Algebra and Combinatorics.\n\n\nFoundations\n\n\nWe're going to look at:\n\n\n\n\nSets\n\n\nRelations\n\n\nFunctions\n\n\n\n\nExample\n\n\n\n\n\n\nSocrates is a man\n\n\nAll men are mortal\nIs socrates Mortal?\n\n\n\n\n\n\nSolution\n: Yes. Socrates is mortal.", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/notes/introduction/#introduction", 
+            "text": "", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/notes/introduction/#why-math-122", 
+            "text": "It's thought in elementary school that everything builds up to calculus. This ignores a bunch of things like Analysis, Algebra and Combinatorics.", 
+            "title": "Why Math 122?"
+        }, 
+        {
+            "location": "/notes/introduction/#foundations", 
+            "text": "We're going to look at:   Sets  Relations  Functions", 
+            "title": "Foundations"
+        }, 
+        {
+            "location": "/notes/introduction/#example", 
+            "text": "Socrates is a man  All men are mortal\nIs socrates Mortal?    Solution : Yes. Socrates is mortal.", 
+            "title": "Example"
+        }
+    ]
+}
