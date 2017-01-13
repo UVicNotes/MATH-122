@@ -22,28 +22,13 @@
         }, 
         {
             "location": "/notes/introduction/", 
-            "text": "Introduction\n\n\nWhy Math 122?\n\n\nIt's thought in elementary school that everything builds up to calculus. This ignores a bunch of things like Analysis, Algebra and Combinatorics.\n\n\nFoundations\n\n\nWe're going to look at:\n\n\n\n\nSets\n\n\nRelations\n\n\nFunctions\n\n\n\n\nExample\n\n\n\n\n\n\nSocrates is a man\n\n\nAll men are mortal\nIs socrates Mortal?\n\n\n\n\n\n\nSolution\n: Yes. Socrates is mortal.", 
+            "text": "Introduction", 
             "title": "Introduction"
         }, 
         {
             "location": "/notes/introduction/#introduction", 
             "text": "", 
             "title": "Introduction"
-        }, 
-        {
-            "location": "/notes/introduction/#why-math-122", 
-            "text": "It's thought in elementary school that everything builds up to calculus. This ignores a bunch of things like Analysis, Algebra and Combinatorics.", 
-            "title": "Why Math 122?"
-        }, 
-        {
-            "location": "/notes/introduction/#foundations", 
-            "text": "We're going to look at:   Sets  Relations  Functions", 
-            "title": "Foundations"
-        }, 
-        {
-            "location": "/notes/introduction/#example", 
-            "text": "Socrates is a man  All men are mortal\nIs socrates Mortal?    Solution : Yes. Socrates is mortal.", 
-            "title": "Example"
         }
     ]
 }
