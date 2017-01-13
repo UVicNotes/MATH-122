@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    
+      
+        <title>Sets - MATH 122</title>
+      
+      
+        <meta name="description" content="Course Notes for MATH 122 - Logic and Foundations">
+      
+      
+        <link rel="canonical" href="http://uvicnotes.github.io/MATH-122/notes/2-1-sets/">
+      
+      
+        <meta name="author" content="Brynn Hawker">
+      
+    
+    <meta property="og:url" content="http://uvicnotes.github.io/MATH-122/notes/2-1-sets/">
+    <meta property="og:title" content="MATH 122">
+    <meta property="og:image" content="http://uvicnotes.github.io/MATH-122/notes/2-1-sets//../../">
+    <meta name="apple-mobile-web-app-title" content="MATH 122">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../assets/images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../assets/images/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../assets/images/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../assets/images/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="../../assets/images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../assets/images/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../assets/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../assets/images/apple-touch-icon-76x76.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../assets/images/android-chrome-192x192.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="230x230" href="../../assets/images/favicon-230x230.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../assets/images/favicon-96x96.png">
+    <link rel="shortcut icon" href="../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../assets/stylesheets/application.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/palettes.css">
+    
+    
+    <script src="../../assets/javascripts/modernizr.js"></script>
+    
+  </head>
+  
+  
+  
+  <body class="palette-primary-indigo palette-accent-orange">
+    
+      
+      
+    
+    <div class="backdrop">
+      <div class="backdrop-paper"></div>
+    </div>
+    <input class="toggle" type="checkbox" id="toggle-drawer">
+    <input class="toggle" type="checkbox" id="toggle-search">
+    <label class="toggle-button overlay" for="toggle-drawer"></label>
+    <header class="header">
+      <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        
+          <span class="path">
+            
+              
+                Sets and Relations (Ch. 2) <i class="icon icon-chevron-right"></i>
+              
+            
+          </span>
+        
+        Sets
+      </div>
+    </div>
+    
+    
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-arrow-left" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+    </header>
+    <main class="main">
+      
+      <div class="drawer">
+        <nav aria-label="Navigation">
+  
+  <div class="project">
+    <div class="banner">
+      <a href="/" class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+          <path class="mark" d="M197.701 78.089h489.115c37.098 0 72.08 14.553 98.506 40.978 26.425 26.425 40.978 61.409 40.978 98.507l-.001 530.219a139.582 139.582 0 0 1-1.397 19.613l-.05.352v55.159c0 76.852-62.525 139.424-139.379 139.483l-487.771.003V78.089z"/>
+          <path class="primary" d="M686.816 73.089H210.847l-18.146.001v894.313l492.775-.003c79.42-.062 144.375-65.055 144.375-144.483v-54.804a144.065 144.065 0 0 0 1.447-20.32V217.574h.001c.001-79.467-65.018-144.485-144.483-144.485zM370.814 271.966c25.968 0 68.307 8.765 70.992 89.508 15.487 21.569 39.002 41.532 66.851 55.718 48.882 8.257 104.158 9.791 161.664 4.5-6.136 16.767-64.204 57.611-63.155 58.35 26.518 18.916 91.86 32.309 91.86 32.309s-44.922 19.526-86.471 20.806c.103.102.26.15.26.254-141.945 2.3-199.456-49.174-204.453-80.509-2.852-16.821 7.938-29.318 28.564-32.615 14.671-2.401 9.826-23.771-3.654-21.469-32.399 5.699-51.121 28.779-46.324 57.509 7.642 47.438 79.028 105.408 241.789 98.352 36.947 12.015 62.303 11.35 85.572 9.612-28.562 33.276-52.728 46.67-74.542 53.723 4.055 33.277 5.444 71.979 4.055 86.061-29.955-43.937-98.27-112.384-128.313-128.205-1.404 42.146 12.383 98.351 28.756 117.622-39.542-8.843-57.47-21.087-73.792-42.199-10.681 12.731-41.187 42.994-73.687 33.356 20.462-36.78 32.794-77.24 31.349-128.152-34.044-6.979-91.36-38.648-90.072-156.271.702-47.465-33.839-61.164-51.515-80.538 27.257-15.724 58.501-47.722 84.266-47.722zm283.492 654.258H233.881v-33.946h452.936c32.42 0 62.438-10.826 86.613-29.039-26.104 37.962-69.83 62.985-119.124 62.985z"/>
+          <path class="accent" d="M380.369 909.128v108.341c0 3.299-2.053 6.306-5.277 7.553-1.024.438-2.125.586-3.225.586a8.918 8.918 0 0 1-6.084-2.346l-32.326-31.082-32.322 31.082c-1.688 1.537-3.813 2.418-6.084 2.418a8.213 8.213 0 0 1-3.228-.658c-3.222-1.246-5.276-4.252-5.276-7.551V909.128h93.822z"/>
+        </svg>
+      </a>
+      <div class="name">
+        <strong>
+          MATH 122
+        </strong>
+        
+          <span>
+          (Summer 2015)
+          </span>
+        
+        <br>
+        <a href="https://github.com/UVicNotes/MATH-122/commits/master" target="_blank" title="Last Updated">
+          Updated Jan 13, 2017
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-contribute">
+              <a href="https://github.com/UVicNotes/MATH-122#contributing" target="_blank" title="Contirbute" data-action="contribute">
+                <i class="icon icon-edit"></i> Contibute
+              </a>
+          </li>
+          <li class="repo-stars">
+            <a href="https://github.com/UVicNotes/MATH-122/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+      <div class="toc">
+        <ul>
+          
+            
+  <li>
+    <a class="" title="Home" href="../..">
+      Home
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Introduction</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="Course Introduction" href="../0-0-introduction/">
+      Course Introduction
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Compound Statements" href="../0-1-compound-statements/">
+      Compound Statements
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Proofs" href="../0-2-proofs/">
+      Proofs
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Logic (Ch. 1)</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="Truth Tables" href="../1-1-truth-tables/">
+      Truth Tables
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Propositions" href="../1-2-propositions/">
+      Propositions
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Logical Arguments" href="../1-3-logical-arguments/">
+      Logical Arguments
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Sets and Relations (Ch. 2)</span>
+    <ul>
+      
+        
+  <li>
+    <a class="current" title="Sets" href="./">
+      Sets
+    </a>
+    
+      
+        
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Explicit Listing Notation" href="#explicit-listing-notation">
+                Explicit Listing Notation
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Implicit Listing Notation" href="#implicit-listing-notation">
+                Implicit Listing Notation
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Set Builder Notation" href="#set-builder-notation">
+                Set Builder Notation
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Set Properties" href="#set-properties">
+                Set Properties
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Empty Set" href="#empty-set">
+                Empty Set
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Subsets" href="#subsets">
+                Subsets
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Proper Subsets" href="#proper-subsets">
+                Proper Subsets
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Properties of Sets" href="#properties-of-sets">
+                Properties of Sets
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="The Transitive Property of Subsets" href="#the-transitive-property-of-subsets">
+                The Transitive Property of Subsets
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Power Sets" href="#power-sets">
+                Power Sets
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Properties of Power Sets" href="#properties-of-power-sets">
+                Properties of Power Sets
+              </a>
+            </li>
+          
+        </ul>
+      
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Set Operations" href="../2-2-set-operations/">
+      Set Operations
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Binary Operations" href="../2-3-binary-operations/">
+      Binary Operations
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Equivalence Relations" href="../2-4-equivalence-relations/">
+      Equivalence Relations
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Functions (Ch. 3)</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="Terminology" href="../3-1-function-terminology/">
+      Terminology
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Inverses" href="../3-2-inverses/">
+      Inverses
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Cardinality" href="../3-3-cardinality/">
+      Cardinality
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">The Integers (Ch. 4)</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="The Division Algorithm" href="../4-1-division-algorithm/">
+      The Division Algorithm
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="The Euclidean Algorithm" href="../4-2-euclidean-algorithm/">
+      The Euclidean Algorithm
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Primes" href="../4-3-primes/">
+      Primes
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Congruences" href="../4-4-congruences/">
+      Congruences
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Induction (Ch. 5)</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="Induction" href="../5-1-induction/">
+      Induction
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Recursive Induction" href="../5-2-recursive/">
+      Recursive Induction
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Inclusion-Exclusion (Ch. 6)</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="Pricipal of Inclusion-Exclusion" href="../6-1-pie/">
+      Pricipal of Inclusion-Exclusion
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+        </ul>
+          <hr>
+          <ul>
+              <li>
+                <a href="https://github.com/UVicNotes" target="_blank" title="View other Course Notes">
+                  More Course Notes on GitHub
+                </a>
+              </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+      </div>
+      <article class="article">
+        <div class="wrapper">
+          
+          <h1 id="section-21-sets">Section 2.1 - Sets<a class="headerlink" href="#section-21-sets" title="Permanent link">&para;</a></h1>
+<p><em>definition</em>: A <strong>set</strong> is a collection of objects. The objects are called <strong>elements</strong> or <strong>members</strong>.</p>
+<ul>
+<li>If $x$ is and element of set $S$ then we write $x \in S$.</li>
+</ul>
+<h2 id="explicit-listing-notation">Explicit Listing Notation<a class="headerlink" href="#explicit-listing-notation" title="Permanent link">&para;</a></h2>
+<p>Listing all the elements in a set.</p>
+<h3 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h3>
+<p>
+<script type="math/tex; mode=display">
+    A = \{ 1,2 \}
+</script>
+<script type="math/tex; mode=display">
+    B = \{ a,b,c \}
+</script>
+<script type="math/tex; mode=display">
+    C = \{ -1, \pi, \text{cat} \}
+</script>
+<script type="math/tex; mode=display">
+    D = \{ \{\underset{\text{set}}a\},\underset{\text{set}}B, \underset{\text{#}}5 \}
+</script>
+</p>
+<h2 id="implicit-listing-notation">Implicit Listing Notation<a class="headerlink" href="#implicit-listing-notation" title="Permanent link">&para;</a></h2>
+<p>List enough elements to make the pattern obvious.</p>
+<h3 id="examples_1">Examples<a class="headerlink" href="#examples_1" title="Permanent link">&para;</a></h3>
+<p>
+<script type="math/tex; mode=display">
+    \{ 2,4,6,8,... \}
+</script>
+<script type="math/tex; mode=display">
+    \mathbb{Z} = \{ ..., -3,-2,-1,0,1,2,3,... \}
+</script>
+<script type="math/tex; mode=display">
+    \mathbb{Z}+ = \{ 1,2,3,... \}
+</script>
+It's debated whether or not the natural numbers contain $0$.
+<script type="math/tex; mode=display">
+    \mathbb{N} = \{ 1,2,3,... \}
+</script>
+<script type="math/tex; mode=display">
+    \mathbb{N}_0 = \{ 0,1,2,3,... \}
+</script>
+</p>
+<h2 id="set-builder-notation">Set Builder Notation<a class="headerlink" href="#set-builder-notation" title="Permanent link">&para;</a></h2>
+<p>Describe the elements by providing some characteristic of them.</p>
+<h3 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
+<p>Suppose we want the prime numbers,</p>
+<p>
+<script type="math/tex; mode=display">
+    \{ x : x \text{ is prime} \}
+</script>
+</p>
+<p>Translates to "All values of $x$ such that $x$ is prime".</p>
+<h3 id="examples_2">Examples<a class="headerlink" href="#examples_2" title="Permanent link">&para;</a></h3>
+<p>
+<script type="math/tex; mode=display">
+    \{ n \in \mathbb{Z} : n < 20, n \text{ is even}, n > 0 \} = \{ 2,4,6, ... , 18 \}
+</script>
+<script type="math/tex; mode=display">
+    \mathbb{Q} = \{ \frac{a}{b} : a,b \in \mathbb{Z}, b \neq 0 \}
+</script>
+<script type="math/tex; mode=display">
+    \mathbb{C} = \{ a + bi : a, b \in \mathbb{R} \}
+</script>
+</p>
+<h2 id="set-properties">Set Properties<a class="headerlink" href="#set-properties" title="Permanent link">&para;</a></h2>
+<p><em>definition</em>: Sets $A$ and $B$ are equal ($A = B$) if they have the same elements. That is,</p>
+<p>
+<script type="math/tex; mode=display">
+    x \in A \iff x \in B
+</script>
+</p>
+<h4 id="note">Note:<a class="headerlink" href="#note" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Sets are unordered,</li>
+</ul>
+<p>
+<script type="math/tex; mode=display">
+    \{ 1,2,3 \} = \{ 3,1,2 \}
+</script>
+</p>
+<ul>
+<li>Unless specified repeated elements are ignored,</li>
+</ul>
+<p>
+<script type="math/tex; mode=display">
+    \{ 1,2,2,3,3,3 \} = \{ 1,2,3 \}
+</script>
+</p>
+<h2 id="empty-set">Empty Set<a class="headerlink" href="#empty-set" title="Permanent link">&para;</a></h2>
+<p><em>definition</em>: The <strong>empty set</strong> is the set with no elements written, $\emptyset$ or ${}$.</p>
+<h3 id="example_1">Example<a class="headerlink" href="#example_1" title="Permanent link">&para;</a></h3>
+<p>The years that Vancouver has won the Stanley Cup $= \emptyset$.</p>
+<h3 id="example_2">Example<a class="headerlink" href="#example_2" title="Permanent link">&para;</a></h3>
+<p>
+<script type="math/tex; mode=display">
+    \{ \frac{a}{b} \in \mathbb{Q} : \frac{a}{b} = \sqrt{2} \} = \emptyset
+</script>
+</p>
+<h3 id="example_3">Example<a class="headerlink" href="#example_3" title="Permanent link">&para;</a></h3>
+<p>Does $\emptyset = { \emptyset }$?</p>
+<h4 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h4>
+<p>No. The second set has one element, the first set has no elements.</p>
+<h3 id="example_4">Example<a class="headerlink" href="#example_4" title="Permanent link">&para;</a></h3>
+<p>How many elements does,</p>
+<p>
+<script type="math/tex; mode=display">
+    \{ \emptyset, \{ \emptyset, \{ \{ \emptyset \} \} \}, \{ \emptyset \} \}
+</script>
+</p>
+<p>have?</p>
+<h4 id="solution_1">Solution<a class="headerlink" href="#solution_1" title="Permanent link">&para;</a></h4>
+<p>Three,</p>
+<ul>
+<li>$\emptyset$</li>
+<li>${ \emptyset, { { \emptyset } } }$</li>
+<li>${ \emptyset }$</li>
+</ul>
+<h2 id="subsets">Subsets<a class="headerlink" href="#subsets" title="Permanent link">&para;</a></h2>
+<p><em>definition</em>: Let $A$ and $B$ be sets. $A$ is a <strong>subset</strong> of $B$ ($A \subseteq B$) if every element in $A$ is also in $B$ (but not necessarily the reverse). That is $x \in A \Rightarrow x \in B$.</p>
+<ul>
+<li>If $A$ is not a subset of $B$ we write $A \not\subseteq B$</li>
+</ul>
+<h3 id="example_5">Example<a class="headerlink" href="#example_5" title="Permanent link">&para;</a></h3>
+<p>Let $A = { 1 ,2 , \emptyset }$ and $B = { 1,3,A }$. Which of the following are true?</p>
+<ol>
+<li>$\emptyset \in A$</li>
+<li>${ 1 } \in A$</li>
+<li>$2 \in B$</li>
+<li>$A \in B$</li>
+<li>${A} \in B$</li>
+<li>$A \subseteq B$</li>
+</ol>
+<h4 id="solution_2">Solution<a class="headerlink" href="#solution_2" title="Permanent link">&para;</a></h4>
+<p>Only 1 and 4 are true. 2, 3, 5 and 6 are false.</p>
+<h2 id="proper-subsets">Proper Subsets<a class="headerlink" href="#proper-subsets" title="Permanent link">&para;</a></h2>
+<p><em>definition</em>: $A$ is a <strong>proper subset</strong> of $B$ if $A \subseteq B$ and $A \neq B$. It is written $A \subset B$.</p>
+<h2 id="properties-of-sets">Properties of Sets<a class="headerlink" href="#properties-of-sets" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Any set $S$ has $S \subseteq S$.</li>
+<li>Any set $S$ has $\emptyset \subseteq S$.</li>
+<li>An $n$ element set has $2^n$ subsets.</li>
+</ul>
+<h3 id="example_6">Example<a class="headerlink" href="#example_6" title="Permanent link">&para;</a></h3>
+<p>How many subsets does ${ a,b }$ have?</p>
+<h4 id="solution_3">Solution<a class="headerlink" href="#solution_3" title="Permanent link">&para;</a></h4>
+<p>Four,</p>
+<ul>
+<li>${ a }$</li>
+<li>${ b }$</li>
+<li>${ a, b }$</li>
+<li>$\emptyset$</li>
+</ul>
+<h2 id="the-transitive-property-of-subsets">The Transitive Property of Subsets<a class="headerlink" href="#the-transitive-property-of-subsets" title="Permanent link">&para;</a></h2>
+<p>If $A$, $B$ and $C$ are sets such that,</p>
+<p>
+<script type="math/tex; mode=display">
+    A \subseteq B \text{ and } B \subseteq C
+</script>
+</p>
+<p>then,</p>
+<p>
+<script type="math/tex; mode=display">
+    A \subseteq C
+</script>
+</p>
+<h3 id="proof">Proof<a class="headerlink" href="#proof" title="Permanent link">&para;</a></h3>
+<p>(RTP: Must show every element  in $A$ is also in $C$)</p>
+<p>Suppose that $A \subseteq B$ and $B \subseteq C$. Let $x \in A$. So then since $A \subseteq B$, $x \in B$. And so, since $B \subseteq C$, $x \in C$.</p>
+<p>
+<script type="math/tex; mode=display">
+    \therefore A \subseteq C
+</script>
+</p>
+<h3 id="proposition">Proposition<a class="headerlink" href="#proposition" title="Permanent link">&para;</a></h3>
+<p>Let $A$ and $B$ be sets. $A = B$ if and only if $A \subseteq B$ and $B \subseteq A$.</p>
+<p>Must show:</p>
+<ul>
+<li>$A = B \Rightarrow A \subseteq B \text{ and } B \subseteq A$</li>
+<li>$A \subseteq B \text{ and } B \subseteq A \Rightarrow A = B$</li>
+</ul>
+<p>($\Rightarrow$) Suppose $A = B$. Let $x \in A$, and so $x \in B$ since $A = B$.</p>
+<p>
+<script type="math/tex; mode=display">
+    \therefore A \subseteq B
+</script>
+</p>
+<p>Let $y \in B$, and so $y \in A$, since $A = B$</p>
+<p>
+<script type="math/tex; mode=display">
+    \therefore B \subseteq A
+</script>
+</p>
+<p>($\Leftarrow$) Suppose $A \subseteq B$ and $B \subseteq A$. Suppose then to the contrary $A \neq B$.</p>
+<p>WLOG, $\exists x \in A \text{ such that } x \not\in B$.</p>
+<p>Which is a contradiction since $A \subseteq B$.</p>
+<p>
+<script type="math/tex; mode=display">
+    \therefore A = B
+</script>
+</p>
+<h2 id="power-sets">Power Sets<a class="headerlink" href="#power-sets" title="Permanent link">&para;</a></h2>
+<p><em>defnition</em>: The <strong>power set</strong> of a set $A$ (denoted $\mathcal{P}(A)$) is the set whose elements are the subsets of $A$.</p>
+<h3 id="example_7">Example<a class="headerlink" href="#example_7" title="Permanent link">&para;</a></h3>
+<p>Let $A = { a, b, }$. What is the power set of $A$?</p>
+<p>Subsets of $A$ are:</p>
+<ul>
+<li>${ a }$</li>
+<li>${ b }$</li>
+<li>${ a, b }$</li>
+<li>$\emptyset$</li>
+</ul>
+<h4 id="solution_4">Solution<a class="headerlink" href="#solution_4" title="Permanent link">&para;</a></h4>
+<p>
+<script type="math/tex; mode=display">
+    \mathcal{P}(A) = \{\{ a \}, \{ b \}, \{ a, b \}, \emptyset \}
+</script>
+</p>
+<h2 id="properties-of-power-sets">Properties of Power Sets<a class="headerlink" href="#properties-of-power-sets" title="Permanent link">&para;</a></h2>
+<p>Let $\mathcal{P}(A)$ be a power set of $A$.</p>
+<ul>
+<li>Every element of $\mathcal{P}(A)$ is a set.</li>
+<li>If $A$ has $n$ elements, $\mathcal{P}(A)$ has $2^n$ elements.</li>
+<li>$\emptyset \in \mathcal{P}(A)$</li>
+<li>$A \in \mathcal{P}(A)$</li>
+<li>$X \in \mathcal{P}(A) \iff X \subseteq A$</li>
+</ul>
+<h3 id="proposition_1">Proposition<a class="headerlink" href="#proposition_1" title="Permanent link">&para;</a></h3>
+<p>Let $A$ and $B$ be sets.</p>
+<p>
+<script type="math/tex; mode=display">
+    A \subseteq B \iff \mathcal{P}(A) \subseteq \mathcal{P}(B)
+</script>
+</p>
+<p>($\Rightarrow$) Suppose $A \subseteq B$. Let $X \in \mathcal{P}(A)$. Then $X \subseteq A \subseteq B$.</p>
+<p>
+<script type="math/tex; mode=display">
+    \therefore X \subseteq B \text{ and } X \in \mathcal{P}(B)
+</script>
+<script type="math/tex; mode=display">
+    \therefore \mathcal{P}(A) \subseteq \mathcal{P}(B)
+</script>
+</p>
+<p>($\Leftarrow$) Suppose $\mathcal{P}(A) \subseteq \mathcal{P}(B)$. Recall $A \subseteq \mathcal{P}(A) \subseteq \mathcal{P}(B)$.</p>
+<p>
+<script type="math/tex; mode=display">
+    \therefore A \in \mathcal{P}(B)
+</script>
+<script type="math/tex; mode=display">
+    \therefore A \subseteq B
+</script>
+</p>
+          <aside class="copyright" role="note">
+            
+            Documentation built with
+            <a href="http://www.mkdocs.org" target="_blank">MkDocs</a>
+            using the
+            <a href="http://squidfunk.github.io/mkdocs-material/" target="_blank">
+              Material
+            </a>
+            theme.
+          </aside>
+          
+            <footer class="footer">
+              
+  <nav class="pagination" aria-label="Footer">
+    <div class="previous">
+      
+        <a href="../1-3-logical-arguments/" title="Logical Arguments">
+          <span class="direction">
+            Previous
+          </span>
+          <div class="page">
+            <div class="button button-previous" role="button" aria-label="Previous">
+              <i class="icon icon-arrow-left"></i>
+            </div>
+            <div class="stretch">
+              <div class="title">
+                Logical Arguments
+              </div>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+    <div class="next">
+      
+        <a href="../2-2-set-operations/" title="Set Operations">
+          <span class="direction">
+            Next
+          </span>
+          <div class="page">
+            <div class="stretch">
+              <div class="title">
+                Set Operations
+              </div>
+            </div>
+            <div class="button button-next" role="button" aria-label="Next">
+              <i class="icon icon-arrow-right"></i>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+  </nav>
+
+            </footer>
+          
+        </div>
+      </article>
+      <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+          <div class="wrapper">
+            <div class="meta"></div>
+            <div class="list"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      var base_url = '../..';
+      var repo_id  = 'UVicNotes/MATH-122';
+    </script>
+    <script src="../../assets/javascripts/application.js"></script>
+    
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+      <script src="https://cdn.rawgit.com/UVicNotes/UVicNotes/81099952ba789829fab1840e5d26cb5a2bf62011/helpers/mathjax.js"></script>
+    
+    
+  </body>
+</html>

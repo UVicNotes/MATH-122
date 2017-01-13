@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    
+      
+        <title>Congruences - MATH 122</title>
+      
+      
+        <meta name="description" content="Course Notes for MATH 122 - Logic and Foundations">
+      
+      
+        <link rel="canonical" href="http://uvicnotes.github.io/MATH-122/notes/4-4-congruences/">
+      
+      
+        <meta name="author" content="Brynn Hawker">
+      
+    
+    <meta property="og:url" content="http://uvicnotes.github.io/MATH-122/notes/4-4-congruences/">
+    <meta property="og:title" content="MATH 122">
+    <meta property="og:image" content="http://uvicnotes.github.io/MATH-122/notes/4-4-congruences//../../">
+    <meta name="apple-mobile-web-app-title" content="MATH 122">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../assets/images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../assets/images/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../assets/images/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../assets/images/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="../../assets/images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../assets/images/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../assets/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../assets/images/apple-touch-icon-76x76.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../assets/images/android-chrome-192x192.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="230x230" href="../../assets/images/favicon-230x230.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../assets/images/favicon-96x96.png">
+    <link rel="shortcut icon" href="../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../assets/stylesheets/application.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/palettes.css">
+    
+    
+    <script src="../../assets/javascripts/modernizr.js"></script>
+    
+  </head>
+  
+  
+  
+  <body class="palette-primary-indigo palette-accent-orange">
+    
+      
+      
+    
+    <div class="backdrop">
+      <div class="backdrop-paper"></div>
+    </div>
+    <input class="toggle" type="checkbox" id="toggle-drawer">
+    <input class="toggle" type="checkbox" id="toggle-search">
+    <label class="toggle-button overlay" for="toggle-drawer"></label>
+    <header class="header">
+      <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        
+          <span class="path">
+            
+              
+                The Integers (Ch. 4) <i class="icon icon-chevron-right"></i>
+              
+            
+          </span>
+        
+        Congruences
+      </div>
+    </div>
+    
+    
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-arrow-left" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+    </header>
+    <main class="main">
+      
+      <div class="drawer">
+        <nav aria-label="Navigation">
+  
+  <div class="project">
+    <div class="banner">
+      <a href="/" class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+          <path class="mark" d="M197.701 78.089h489.115c37.098 0 72.08 14.553 98.506 40.978 26.425 26.425 40.978 61.409 40.978 98.507l-.001 530.219a139.582 139.582 0 0 1-1.397 19.613l-.05.352v55.159c0 76.852-62.525 139.424-139.379 139.483l-487.771.003V78.089z"/>
+          <path class="primary" d="M686.816 73.089H210.847l-18.146.001v894.313l492.775-.003c79.42-.062 144.375-65.055 144.375-144.483v-54.804a144.065 144.065 0 0 0 1.447-20.32V217.574h.001c.001-79.467-65.018-144.485-144.483-144.485zM370.814 271.966c25.968 0 68.307 8.765 70.992 89.508 15.487 21.569 39.002 41.532 66.851 55.718 48.882 8.257 104.158 9.791 161.664 4.5-6.136 16.767-64.204 57.611-63.155 58.35 26.518 18.916 91.86 32.309 91.86 32.309s-44.922 19.526-86.471 20.806c.103.102.26.15.26.254-141.945 2.3-199.456-49.174-204.453-80.509-2.852-16.821 7.938-29.318 28.564-32.615 14.671-2.401 9.826-23.771-3.654-21.469-32.399 5.699-51.121 28.779-46.324 57.509 7.642 47.438 79.028 105.408 241.789 98.352 36.947 12.015 62.303 11.35 85.572 9.612-28.562 33.276-52.728 46.67-74.542 53.723 4.055 33.277 5.444 71.979 4.055 86.061-29.955-43.937-98.27-112.384-128.313-128.205-1.404 42.146 12.383 98.351 28.756 117.622-39.542-8.843-57.47-21.087-73.792-42.199-10.681 12.731-41.187 42.994-73.687 33.356 20.462-36.78 32.794-77.24 31.349-128.152-34.044-6.979-91.36-38.648-90.072-156.271.702-47.465-33.839-61.164-51.515-80.538 27.257-15.724 58.501-47.722 84.266-47.722zm283.492 654.258H233.881v-33.946h452.936c32.42 0 62.438-10.826 86.613-29.039-26.104 37.962-69.83 62.985-119.124 62.985z"/>
+          <path class="accent" d="M380.369 909.128v108.341c0 3.299-2.053 6.306-5.277 7.553-1.024.438-2.125.586-3.225.586a8.918 8.918 0 0 1-6.084-2.346l-32.326-31.082-32.322 31.082c-1.688 1.537-3.813 2.418-6.084 2.418a8.213 8.213 0 0 1-3.228-.658c-3.222-1.246-5.276-4.252-5.276-7.551V909.128h93.822z"/>
+        </svg>
+      </a>
+      <div class="name">
+        <strong>
+          MATH 122
+        </strong>
+        
+          <span>
+          (Summer 2015)
+          </span>
+        
+        <br>
+        <a href="https://github.com/UVicNotes/MATH-122/commits/master" target="_blank" title="Last Updated">
+          Updated Jan 13, 2017
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-contribute">
+              <a href="https://github.com/UVicNotes/MATH-122#contributing" target="_blank" title="Contirbute" data-action="contribute">
+                <i class="icon icon-edit"></i> Contibute
+              </a>
+          </li>
+          <li class="repo-stars">
+            <a href="https://github.com/UVicNotes/MATH-122/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+      <div class="toc">
+        <ul>
+          
+            
+  <li>
+    <a class="" title="Home" href="../..">
+      Home
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Introduction</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="Course Introduction" href="../0-0-introduction/">
+      Course Introduction
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Compound Statements" href="../0-1-compound-statements/">
+      Compound Statements
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Proofs" href="../0-2-proofs/">
+      Proofs
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Logic (Ch. 1)</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="Truth Tables" href="../1-1-truth-tables/">
+      Truth Tables
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Propositions" href="../1-2-propositions/">
+      Propositions
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Logical Arguments" href="../1-3-logical-arguments/">
+      Logical Arguments
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Sets and Relations (Ch. 2)</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="Sets" href="../2-1-sets/">
+      Sets
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Set Operations" href="../2-2-set-operations/">
+      Set Operations
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Binary Operations" href="../2-3-binary-operations/">
+      Binary Operations
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Equivalence Relations" href="../2-4-equivalence-relations/">
+      Equivalence Relations
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Functions (Ch. 3)</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="Terminology" href="../3-1-function-terminology/">
+      Terminology
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Inverses" href="../3-2-inverses/">
+      Inverses
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Cardinality" href="../3-3-cardinality/">
+      Cardinality
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">The Integers (Ch. 4)</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="The Division Algorithm" href="../4-1-division-algorithm/">
+      The Division Algorithm
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="The Euclidean Algorithm" href="../4-2-euclidean-algorithm/">
+      The Euclidean Algorithm
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Primes" href="../4-3-primes/">
+      Primes
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="current" title="Congruences" href="./">
+      Congruences
+    </a>
+    
+      
+        
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Example" href="#example">
+                Example
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Example" href="#example_1">
+                Example
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Example" href="#example_2">
+                Example
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Solution" href="#solution_1">
+                Solution
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Least Residue mod $n$" href="#least-residue-mod-n">
+                Least Residue mod $n$
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Arithmetic $\bmod n$" href="#arithmetic-bmod-n">
+                Arithmetic $\bmod n$
+              </a>
+            </li>
+          
+        </ul>
+      
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Induction (Ch. 5)</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="Induction" href="../5-1-induction/">
+      Induction
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Recursive Induction" href="../5-2-recursive/">
+      Recursive Induction
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Inclusion-Exclusion (Ch. 6)</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="Pricipal of Inclusion-Exclusion" href="../6-1-pie/">
+      Pricipal of Inclusion-Exclusion
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+        </ul>
+          <hr>
+          <ul>
+              <li>
+                <a href="https://github.com/UVicNotes" target="_blank" title="View other Course Notes">
+                  More Course Notes on GitHub
+                </a>
+              </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+      </div>
+      <article class="article">
+        <div class="wrapper">
+          
+          <h1 id="section-44-congruences">Section 4.4 -- Congruences<a class="headerlink" href="#section-44-congruences" title="Permanent link">&para;</a></h1>
+<p><em>definition</em>: For a natural number $n \gt 1$, given integers $a$ and $b$, we says, $a$ is <strong>congruent</strong> to $b$ modulo $n$,</p>
+<p>
+<script type="math/tex; mode=display">
+    a \equiv b \pmod n
+</script>
+</p>
+<p>if,</p>
+<p>
+<script type="math/tex; mode=display">
+    n \mid (a - b)
+</script>
+</p>
+<p>or $\frac{a}{n}$ and $\frac{b}{n}$ have the same remainder.</p>
+<h3 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
+<p>Since,</p>
+<p>
+<script type="math/tex; mode=display">\begin{aligned}
+    9 &\equiv 2 \pmod 7 \newline
+    16 &\equiv 9 \pmod 7 \newline
+\end{aligned}</script>
+</p>
+<p>we can say,</p>
+<p>
+<script type="math/tex; mode=display">
+    2 \equiv 16 \equiv 9 \pmod 7
+ </script>
+</p>
+<h3 id="example_1">Example<a class="headerlink" href="#example_1" title="Permanent link">&para;</a></h3>
+<p>It's 11 AM. What time will it be in 22 hours?</p>
+<h4 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h4>
+<p>It will be 9 AM (not 33 AM).</p>
+<p>Why? Times rollover after 24 hours.</p>
+<h3 id="example_2">Example<a class="headerlink" href="#example_2" title="Permanent link">&para;</a></h3>
+<p>Draw a $405^\circ$ ray.</p>
+<h3 id="solution_1">Solution<a class="headerlink" href="#solution_1" title="Permanent link">&para;</a></h3>
+<p>Since angles rollover after $360^\circ$, we can draw $45^\circ$.</p>
+<h2 id="least-residue-mod-n">Least Residue mod $n$<a class="headerlink" href="#least-residue-mod-n" title="Permanent link">&para;</a></h2>
+<p><em>definition</em>:For integers $a$ and $b$ where $a \equiv b \pmod n$, we say $b$ is the <strong>least residue mod $n$</strong> if $0 \le b \le n$.</p>
+<h3 id="notice">Notice<a class="headerlink" href="#notice" title="Permanent link">&para;</a></h3>
+<p>
+<script type="math/tex; mode=display">
+    \equiv \mod n
+</script>
+</p>
+<p>is an equivalence relation with equivalence classes,</p>
+<p>
+<script type="math/tex; mode=display">
+    [0],[1],[2],...,[n-1]
+</script>
+</p>
+<h3 id="example_3">Example<a class="headerlink" href="#example_3" title="Permanent link">&para;</a></h3>
+<p>The equivalence classes for $\bmod 3$ are,</p>
+<p>
+<script type="math/tex; mode=display">\begin{aligned}
+    \left[0\right] &= \{...,-9,-6,-3,0,3,6,9,... \} \newline
+    [1] &= \{ ...,-8,-5,-2,1,4,7,... \} \newline
+    [2] &= \{ ...,-7,-4,-1,2,5,8,... \} \newline
+\end{aligned}</script>
+</p>
+<h2 id="arithmetic-bmod-n">Arithmetic $\bmod n$<a class="headerlink" href="#arithmetic-bmod-n" title="Permanent link">&para;</a></h2>
+<h3 id="proposition">Proposition<a class="headerlink" href="#proposition" title="Permanent link">&para;</a></h3>
+<p>Let $a,b,c,d \in \mathbb Z$ and $n \in \mathbb N$, if,</p>
+<p>
+<script type="math/tex; mode=display">\begin{aligned}
+    a &\equiv b \pmod n \newline
+    c &\equiv d \pmod n \newline
+\end{aligned}</script>
+</p>
+<p>then,</p>
+<p>
+<script type="math/tex; mode=display">\begin{aligned}
+    a + c &\equiv b + d \pmod n \newline
+    a - c &\equiv b - d \pmod n \newline
+    a \cdot c &\equiv b \cdot d  \pmod n \newline
+\end{aligned}</script>
+</p>
+<h4 id="proof">Proof<a class="headerlink" href="#proof" title="Permanent link">&para;</a></h4>
+<p>Suppose $a \equiv b \pmod n$ and $a \equiv d \pmod n$ so,</p>
+<p>
+<script type="math/tex; mode=display">
+    n \mid a - b
+</script>
+</p>
+<p>and,</p>
+<p>
+<script type="math/tex; mode=display">
+    n \mid c - d
+</script>
+</p>
+<p>so,</p>
+<p>
+<script type="math/tex; mode=display">\begin{aligned}
+    a - b &= nk \text{ for some } k \in \mathbb Z \newline
+    a - d &= n\ell \text{ for some } \ell \in \mathbb Z \newline
+\end{aligned}</script>
+</p>
+<p>so,</p>
+<p>
+<script type="math/tex; mode=display">\begin{aligned}
+    a &= nk + b \newline
+    c &= n\ell + d \newline
+\end{aligned}</script>
+</p>
+<p>so,</p>
+<p>
+<script type="math/tex; mode=display">\begin{aligned}
+    a + c &= (nk + b) + (n\ell + d) \newline
+    &= n(\ell + k) + (b+d) \newline
+\end{aligned}</script>
+</p>
+<p>therefore,</p>
+<p>
+<script type="math/tex; mode=display">\begin{aligned}
+    (a+b)-(b+d) &= n(\ell+k)\newline
+\end{aligned}</script>
+</p>
+<p>
+<script type="math/tex; mode=display">\begin{aligned}
+    n \mid (a+c)-(b+d)
+\end{aligned}</script>
+</p>
+<p>
+<script type="math/tex; mode=display">\begin{aligned}
+    a+c \equiv b+d \pmod n
+\end{aligned}</script>
+</p>
+<h3 id="warning">Warning<a class="headerlink" href="#warning" title="Permanent link">&para;</a></h3>
+<p>
+<script type="math/tex; mode=display">
+    ac \equiv bd \pmod n
+</script>
+</p>
+<p><strong>does not imply</strong> $a \equiv b \pmod n$</p>
+<h3 id="example_4">Example<a class="headerlink" href="#example_4" title="Permanent link">&para;</a></h3>
+<p>Let $b \equiv 2 \pmod 4$,</p>
+<p>
+<script type="math/tex; mode=display">\begin{aligned}
+    2\cdot3 &\equiv 2 \cdot 1 \pmod 4 \newline
+    3 &\not\equiv 1 \pmod 4 \newline
+\end{aligned}</script>
+</p>
+<h3 id="proposition_1">Proposition<a class="headerlink" href="#proposition_1" title="Permanent link">&para;</a></h3>
+<p>If $ac \equiv bc \pmod n$ <strong>and</strong> $\gcd(c,n) = 1$ then,</p>
+<p>
+<script type="math/tex; mode=display">
+    a \equiv b \pmod n
+</script>
+</p>
+<h3 id="example_5">Example<a class="headerlink" href="#example_5" title="Permanent link">&para;</a></h3>
+<p>Solve,</p>
+<p>
+<script type="math/tex; mode=display">
+    3x - 34 \equiv 2 \pmod 7
+</script>
+</p>
+<h4 id="solution_2">Solution<a class="headerlink" href="#solution_2" title="Permanent link">&para;</a></h4>
+<p>$$<script type="math/tex; mode=display">\begin{aligned}
+    3x - 34 &\equiv 2 \pmod 7 \newline
+    3x &\equiv 3 + 34 \pmod 7 \newline
+    3x &\equiv 36 \pmod 7 \newline
+    3x &\equiv 3 \cdot 12 \pmod 7 \newline
+\text{since $\gcd(3,7) = 1$} \newline
+    x &\equiv 12 \pmod 7 \newline
+    &\equiv 5 \pmod 7
+\end{aligned}</script>$$</p>
+<h3 id="example_6">Example<a class="headerlink" href="#example_6" title="Permanent link">&para;</a></h3>
+<p>Solve,</p>
+<p>
+<script type="math/tex; mode=display">
+    2x \equiv 30 \pmod 4
+</script>
+</p>
+<h4 id="solution_3">Solution<a class="headerlink" href="#solution_3" title="Permanent link">&para;</a></h4>
+<p>By trial and error, let $x \in [0]$,</p>
+<p>
+<script type="math/tex; mode=display">
+    2(0) \equiv 0 \not\equiv 30 \pmod 4
+</script>
+</p>
+<p>(note $30 \pmod 4 \equiv 2 \pmod 4$), let $x \in [1]$,</p>
+<p>
+<script type="math/tex; mode=display">
+    2(1) \equiv 2 \pmod 4
+</script>
+</p>
+<p>let $x \in [2]$,</p>
+<p>
+<script type="math/tex; mode=display">
+    2(2) \equiv 4 \not\equiv 2 \pmod 4
+</script>
+</p>
+<h3 id="fact">Fact<a class="headerlink" href="#fact" title="Permanent link">&para;</a></h3>
+<p>
+<script type="math/tex; mode=display">
+    9 \equiv -1 \pmod{10}
+</script>
+</p>
+<h3 id="example_7">Example<a class="headerlink" href="#example_7" title="Permanent link">&para;</a></h3>
+<p>Find the last digit of $3^{123}$.</p>
+<h4 id="solution_4">Solution<a class="headerlink" href="#solution_4" title="Permanent link">&para;</a></h4>
+<p>We can find $3^{123} \pmod{10}$ instead</p>
+<p>
+<script type="math/tex; mode=display">\begin{aligned}
+    3^{123} &= 3^{120+3} \newline
+    &= 3^{2 \cdot 60 + 3} \newline
+    &= (3^2)^{60} \cdot 3^3 \newline
+    &= 9^{60} \cdot 3^3 \newline
+    &\equiv (-1)^{60} \cdot 3^3 \pmod{10} \newline
+    &\equiv 27 \pmod{10} \newline
+    &\equiv 7 \pmod{10} \newline
+\end{aligned}</script>
+</p>
+<h3 id="application-of-divisibility-by-3">Application of Divisibility by 3<a class="headerlink" href="#application-of-divisibility-by-3" title="Permanent link">&para;</a></h3>
+<p>Notice if $3 \mid n$, then,</p>
+<p>
+<script type="math/tex; mode=display">
+    n \equiv 0 \pmod{3}
+</script>
+</p>
+<p>also,</p>
+<p>
+<script type="math/tex; mode=display">
+    10 \equiv 1 \pmod{3}
+</script>
+</p>
+<p>To test if $3 \mid n$ we will start by writing,</p>
+<p>
+<script type="math/tex; mode=display">\begin{aligned}
+    n &= d_k 10^k + d_{k-1} 10^{k-1} + d_{k-2} 10^{k-2} + ... + d_0 10^0 \newline
+    &\equiv d_k + d_{k-1} + d_{k-2} + ... + d_0 \pmod{3} \newline
+\end{aligned}</script>
+</p>
+<p>so</p>
+<p>
+<script type="math/tex; mode=display">
+    3 \mid n \iff 3 \mid \left( d_k + d_{k-1} + d_{k-2} + ... + d_0 \right)
+</script>
+</p>
+          <aside class="copyright" role="note">
+            
+            Documentation built with
+            <a href="http://www.mkdocs.org" target="_blank">MkDocs</a>
+            using the
+            <a href="http://squidfunk.github.io/mkdocs-material/" target="_blank">
+              Material
+            </a>
+            theme.
+          </aside>
+          
+            <footer class="footer">
+              
+  <nav class="pagination" aria-label="Footer">
+    <div class="previous">
+      
+        <a href="../4-3-primes/" title="Primes">
+          <span class="direction">
+            Previous
+          </span>
+          <div class="page">
+            <div class="button button-previous" role="button" aria-label="Previous">
+              <i class="icon icon-arrow-left"></i>
+            </div>
+            <div class="stretch">
+              <div class="title">
+                Primes
+              </div>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+    <div class="next">
+      
+        <a href="../5-1-induction/" title="Induction">
+          <span class="direction">
+            Next
+          </span>
+          <div class="page">
+            <div class="stretch">
+              <div class="title">
+                Induction
+              </div>
+            </div>
+            <div class="button button-next" role="button" aria-label="Next">
+              <i class="icon icon-arrow-right"></i>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+  </nav>
+
+            </footer>
+          
+        </div>
+      </article>
+      <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+          <div class="wrapper">
+            <div class="meta"></div>
+            <div class="list"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      var base_url = '../..';
+      var repo_id  = 'UVicNotes/MATH-122';
+    </script>
+    <script src="../../assets/javascripts/application.js"></script>
+    
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+      <script src="https://cdn.rawgit.com/UVicNotes/UVicNotes/81099952ba789829fab1840e5d26cb5a2bf62011/helpers/mathjax.js"></script>
+    
+    
+  </body>
+</html>
