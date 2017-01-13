@@ -1,0 +1,16 @@
+sudo: true
+language: node_js
+node_js:
+- '6'
+install:
+- sudo pip install mkdocs
+- sudo pip install python-markdown-math
+- sudo pip install git+git://github.com/aleray/mdx_del_ins.git
+- sudo pip install pygments
+- npm install -g bower gulp
+before_script: wget https://raw.githubusercontent.com/UVicNotes/UVicNotes/master/scripts/deploy.sh
+script: bash ./deploy.sh
+env:
+  global:
+  - GH_REF: github.com/UVicNotes/MATH-122.git
+  - secure: k5oqkFiXo9gpkGzYcTkrno6ztefa6KGEx6kye3CzAOWXzZcTqGQcSHAFSX+lWClmIe8VgE1FcNJtJKstV+FLEclyiqKu0oU8Y8Ze+DgVW6wJdi5toEM/wO5y+p8gSiBcAnZEOHEfUdYxW11TnhJB7riP+u4cLAKdj12AdliBxKmx35J2DgcK7551MfRl7ZX5oSScyWVfnqWPw1U3en+cpKHx8rC/xCbpqJ5DQ2+7L7H7yETbQS50KqDJtUCYAp2yX1QkdVXA4VULK+CRendXAW924dimFk/RlsaykgzrZtaTCROUMYcsuwXOy+r7Mq5+SmHpLofm0iR3jvXVfWka11R9WcpzpC8qroFmYPsPyBppyxt2Hk0XhkMhzE+jl0aCXdN7AhRwuG02sgijS4UpKQtUbwZ60pAlBTc+kYkPiRI0iMc/+y5NG2nqmJlXrUjepq5qaW6daW6J/DNZp7qFDxy/5rDKLi5Qal26NJ6mRYrxV/hk62xQVNipHGZgnB7W3cwbQDdlKFOKPDWR7ORbbO4Uy0RyLtuTzJw1z9fd3rhkWciewvlIDS3JSA193DiDT89LFBS4GNU9g7nJStlbRO+iHlqYnv82vTDgtwBuIrHSrmJP4gPMKiFNqQzPJ/l6C1Vbn8F8xRX9nOmI/FueuDzWCJO/jEBc+fjs91FqNdA=
