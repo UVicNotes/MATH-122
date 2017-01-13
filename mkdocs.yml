@@ -18,7 +18,7 @@ markdown_extensions:
     - codehilite(css_class=code)
     - admonition
 extra:
-  version: 'Spring 2015'
+  version: 'Summer 2015'
   palette:
     primary: 'indigo'
     accent: 'orange'
