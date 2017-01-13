@@ -1,10 +1,10 @@
-# Introduction
+ Introduction
 
-## Why Math 122?
+# Why Math 122?
 
 It's thought in elementary school that everything builds up to calculus. This ignores a bunch of things like Analysis, Algebra and Combinatorics.
 
-### Foundations
+## Foundations
 
 We're going to look at:
 
@@ -12,7 +12,7 @@ We're going to look at:
 * Relations
 * Functions
 
-#### Example
+### Example
 
 > * Socrates is a man
 > * All men are mortal

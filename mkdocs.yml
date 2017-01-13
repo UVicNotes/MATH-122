@@ -7,8 +7,33 @@ site_description: Course Notes for MATH 122 - Logic and Foundations
 site_author: Brynn Hawker
 pages:
 - Home: 'index.md'
-- Notes:
-    - 'Introduction': 'notes/introduction.md'
+- Introduction:
+    - 'Course Introduction': 'notes/0-0-introduction.md'
+    - 'Compound Statements': 'notes/0-1-compound-statements.md'
+    - 'Proofs': 'notes/0-2-proofs.md'
+- Logic (Ch. 1):
+    - 'Truth Tables': 'notes/1-1-truth-tables.md'
+    - 'Propositions': 'notes/1-2-propositions.md'
+    - 'Logical Arguments': 'notes/1-3-logical-arguments.md'
+- Sets and Relations (Ch. 2):
+    - 'Sets': 'notes/2-1-sets.md'
+    - 'Set Operations': 'notes/2-2-set-operations.md'
+    - 'Binary Operations': 'notes/2-3-binary-operations.md'
+    - 'Equivalence Relations': 'notes/2-4-equivalence-relations.md'
+- Functions (Ch. 3):
+    - 'Terminology': 'notes/3-1-function-terminology.md'
+    - 'Inverses': 'notes/3-2-inverses.md'
+    - 'Cardinality': 'notes/3-3-cardinality.md'
+- The Integers (Ch. 4):
+    - 'The Division Algorithm': 'notes/4-1-division-algorithm.md'
+    - 'The Euclidean Algorithm': 'notes/4-2-euclidean-algorithm.md'
+    - 'Primes': 'notes/4-3-primes.md'
+    - 'Congruences': 'notes/4-4-congruences.md'
+- Induction (Ch. 5):
+    - 'Induction': 'notes/5-1-induction.md'
+    - 'Recursive Induction': 'notes/5-2-recursive.md'
+- Inclusion-Exclusion (Ch. 6):
+    - 'Pricipal of Inclusion-Exclusion': 'notes/6-1-pie.md'
 extra_javascript:
     - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
     - https://cdn.rawgit.com/UVicNotes/UVicNotes/81099952ba789829fab1840e5d26cb5a2bf62011/helpers/mathjax.js
@@ -17,8 +42,12 @@ markdown_extensions:
     - mdx_del_ins
     - codehilite(css_class=code)
     - admonition
+    - toc:
+        permalink: True
 extra:
   version: 'Summer 2015'
   palette:
     primary: 'indigo'
     accent: 'orange'
+
+
