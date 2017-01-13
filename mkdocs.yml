@@ -1,0 +1,24 @@
+site_name: MATH 122
+docs_dir: docs
+theme_dir: theme
+site_url: http://uvicnotes.github.io/MATH-122/
+repo_url: https://github.com/UVicNotes/MATH-122
+site_description: Course Notes for MATH 122 - Logic and Foundations
+site_author: Brynn Hawker
+pages:
+- Home: 'index.md'
+- Notes:
+    - 'Introduction': 'notes/introduction.md'
+extra_javascript:
+    - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+    - https://cdn.rawgit.com/UVicNotes/UVicNotes/81099952ba789829fab1840e5d26cb5a2bf62011/helpers/mathjax.js
+markdown_extensions:
+    - mdx_math
+    - mdx_del_ins
+    - codehilite(css_class=code)
+    - admonition
+extra:
+  version: 'Spring 2015'
+  palette:
+    primary: 'indigo'
+    accent: 'orange'
