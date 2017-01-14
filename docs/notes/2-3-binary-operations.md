@@ -11,7 +11,7 @@ $$
 
 Binary refers to a relationship between 2 sets, and we will only consider binary relationships in this course.
 
-### Example
+**Example**
 
 * $A = \{ 1,2,3 \}$
 * $B = \{ x,y,z \}$

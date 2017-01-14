@@ -24,11 +24,11 @@ $$ n = 2k +1 $$
 
 where $k$ is some integer.
 
-### Example
+**Example**
 
 If some integer $n$ is even, then $n^2$ is also even.
 
-#### Solution
+**_Solution_**
 
 
 _Proof_: Supposed $n$ is even, then,
@@ -52,11 +52,11 @@ Assume that $\neg q$ is true, then use known result to prove that $\neg p$ is tr
 > __Recall__
 > The contrapositive of $p \to q$ is $\neg q \to \neg p$.
 
-### Example
+**Example**
 
 $\forall n \in \mathbb{Z}$ if $n^2$ is even, then $n$ is even.
 
-#### Solution
+**_Solution_**
 
 _Proof_ (by contrapositive): Supposed $n$ is odd, then,
 
@@ -90,7 +90,7 @@ $$
 
 where $a,b \in \mathbb{Z}$.
 
-### Example
+**Example**
 
 Prove that $\sqrt{2}$ is irrational.
 

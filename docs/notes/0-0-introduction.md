@@ -12,7 +12,7 @@ We're going to look at:
 * Relations
 * Functions
 
-### Example
+**Example**
 
 > * Socrates is a man
 > * All men are mortal

@@ -14,7 +14,7 @@ $$
 
 or $\frac{a}{n}$ and $\frac{b}{n}$ have the same remainder.
 
-### Example
+**Example**
 
 Since,
 
@@ -29,21 +29,21 @@ $$\begin{aligned}
     2 \equiv 16 \equiv 9 \pmod 7
  $$
 
-### Example
+**Example**
 
 It's 11 AM. What time will it be in 22 hours?
 
-#### Solution
+**_Solution_**
 
 It will be 9 AM (not 33 AM).
 
 Why? Times rollover after 24 hours.
 
-### Example
+**Example**
 
 Draw a $405^\circ$ ray.
 
-### Solution
+**_Solution_**
 
 Since angles rollover after $360^\circ$, we can draw $45^\circ$.
 
@@ -64,7 +64,7 @@ $$
     [0],[1],[2],...,[n-1]
 $$
 
-### Example
+**Example**
 
 The equivalence classes for $\bmod 3$ are,
 
@@ -150,7 +150,7 @@ $$
 
 __does not imply__ $a \equiv b \pmod n$
 
-### Example
+**Example**
 
 Let $b \equiv 2 \pmod 4$,
 
@@ -167,7 +167,7 @@ $$
     a \equiv b \pmod n
 $$
 
-### Example
+**Example**
 
 Solve,
 
@@ -175,7 +175,7 @@ $$
     3x - 34 \equiv 2 \pmod 7
 $$
 
-#### Solution
+**_Solution_**
 
 $$\begin{aligned}
     3x - 34 &\equiv 2 \pmod 7 \newline
@@ -187,7 +187,7 @@ $$\begin{aligned}
     &\equiv 5 \pmod 7
 \end{aligned}$$
 
-### Example
+**Example**
 
 Solve,
 
@@ -195,7 +195,7 @@ $$
     2x \equiv 30 \pmod 4
 $$
 
-#### Solution
+**_Solution_**
 
 By trial and error, let $x \in [0]$,
 
@@ -222,11 +222,11 @@ $$
     9 \equiv -1 \pmod{10}
 $$
 
-### Example
+**Example**
 
 Find the last digit of $3^{123}$.
 
-#### Solution
+**_Solution_**
 
 We can find $3^{123} \pmod{10}$ instead
 

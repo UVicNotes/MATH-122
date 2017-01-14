@@ -1,7 +1,7 @@
 
 # Section 6.1 - Principal of Inclusion-Exclusion (PIE)
 
-### Example
+**Example**
 
 Let $\mathcal U$ be the students in the first three rows. Let $C$ be the students in the first three rows who have owned a cat. Let $D$ be the students in the first three rows who have owned a dog. Let $N$ be the students in the first three rows who have owned neither a cat or a dog. So,
 
@@ -25,7 +25,7 @@ $$
     |A \cup B| = |A| + |B| - |A \cap B|
 $$
 
-# Example
+**Example**
 
 Of $50$ feline contestants at the Ladysmith cat show, $40\%$ ($20$) are short-haired and $32$ like laser pointers.
 
@@ -67,7 +67,7 @@ Let $A$ and $B$ be sets of the universal set $\mathcal U$.
 * $|A \cup B| = |A| + |B| - |A \cap B|$
 * $|A \cup B \cup C| = |A|+|B|+|C|-|A \cap B|-|A \cap C| - |B \cap C| + |A \cap B \cap C|$
 
-### Example
+**Example**
 
 On an exam there are 25 questions, of which 18 are "hard", 10 are Multiple Choice and 6 are proofs.
 
@@ -117,11 +117,11 @@ $$\begin{aligned}
     &+ (-1)^{n+1} |A_1 \cap A_2 \cap … \cap A_n|
 \end{aligned}$$
 
-### Example
+**Example**
 
 Find $\Phi(150)$ where phi is the Euler function, i.e. al numbers less than $150$ that are cop rime to $150$.
 
-#### Solution
+**_Solution_**
 
 $$\begin{aligned}
     150 = 2 \cdot 3 \cdot 5^2

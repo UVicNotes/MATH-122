@@ -9,7 +9,7 @@ _definition_: A __set__ is a collection of objects. The objects are called __ele
 
 Listing all the elements in a set.
 
-### Examples
+**Examples**
 
 $$
     A = \{ 1,2 \}
@@ -28,7 +28,7 @@ $$
 
 List enough elements to make the pattern obvious.
 
-### Examples
+**Examples**
 
 $$
     \{ 2,4,6,8,... \}
@@ -51,7 +51,7 @@ $$
 
 Describe the elements by providing some characteristic of them.
 
-### Example
+**Example**
 
 Suppose we want the prime numbers,
 
@@ -61,7 +61,7 @@ $$
 
 Translates to "All values of $x$ such that $x$ is prime".
 
-### Examples
+**Examples**
 
 $$
     \{ n \in \mathbb{Z} : n < 20, n \text{ is even}, n > 0 \} = \{ 2,4,6, ... , 18 \}
@@ -99,25 +99,25 @@ $$
 
 _definition_: The __empty set__ is the set with no elements written, $\emptyset$ or $\{\}$.
 
-### Example
+**Example**
 
 The years that Vancouver has won the Stanley Cup $= \emptyset$.
 
-### Example
+**Example**
 
 $$
     \{ \frac{a}{b} \in \mathbb{Q} : \frac{a}{b} = \sqrt{2} \} = \emptyset
 $$
 
-### Example
+**Example**
 
 Does $\emptyset = \{ \emptyset \}$?
 
-#### Solution
+**_Solution_**
 
 No. The second set has one element, the first set has no elements.
 
-### Example
+**Example**
 
 How many elements does,
 
@@ -127,7 +127,7 @@ $$
 
 have?
 
-#### Solution
+**_Solution_**
 
 Three,
 
@@ -142,7 +142,7 @@ _definition_: Let $A$ and $B$ be sets. $A$ is a __subset__ of $B$ ($A \subseteq 
 *  If $A$ is not a subset of $B$ we write $A \not\subseteq B$
 
 
-### Example
+**Example**
 
 Let $A = \{ 1 ,2 , \emptyset \}$ and $B = \{ 1,3,A \}$. Which of the following are true?
 
@@ -153,7 +153,7 @@ Let $A = \{ 1 ,2 , \emptyset \}$ and $B = \{ 1,3,A \}$. Which of the following a
 5. $\{A\} \in B$
 6. $A \subseteq B$
 
-#### Solution
+**_Solution_**
 
 Only 1 and 4 are true. 2, 3, 5 and 6 are false.
 
@@ -167,11 +167,11 @@ _definition_: $A$ is a __proper subset__ of $B$ if $A \subseteq B$ and $A \neq B
 * Any set $S$ has $\emptyset \subseteq S$.
 * An $n$ element set has $2^n$ subsets.
 
-### Example
+**Example**
 
 How many subsets does $\{ a,b \}$ have?
 
-#### Solution
+**_Solution_**
 
 Four,
 
@@ -239,7 +239,7 @@ $$
 
 _defnition_: The __power set__ of a set $A$ (denoted $\mathcal{P}(A)$) is the set whose elements are the subsets of $A$.
 
-### Example
+**Example**
 
 Let $A = \{ a, b, \}$. What is the power set of $A$?
 
@@ -250,7 +250,7 @@ Subsets of $A$ are:
 * $\{ a, b \}$
 * $\emptyset$
 
-#### Solution
+**_Solution_**
 
 $$
     \mathcal{P}(A) = \{\{ a \}, \{ b \}, \{ a, b \}, \emptyset \}

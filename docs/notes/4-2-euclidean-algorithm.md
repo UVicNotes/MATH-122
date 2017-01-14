@@ -21,7 +21,7 @@ $$
     a \mid b \iff \frac{b}{a} \in \mathbb Z
 $$
 
-### Example
+**Example**
 
 $$ %Aligned
 \begin{aligned}
@@ -85,11 +85,11 @@ _definition_: Let $a$ and $b$ be integers, such that they are not both zero. The
 
 and we write $g = \gcd(a,b)$
 
-### Example
+**Example**
 
 Find $\gcd(6,15)$.
 
-#### Solution
+**_Solution_**
 
 List the divisors,
 
@@ -172,11 +172,11 @@ $$
 
 and $\gcd(a,b) = r_{i-1}$.
 
-### Example
+**Example**
 
 Find $\gcd(88,72)$.
 
-#### Solution
+**_Solution_**
 
 $$ %Aligned
 \begin{aligned}
@@ -188,11 +188,11 @@ $$
 
 So $\gcd(88,72) = 8$.
 
-### Example
+**Example**
 
 Find $\gcd(78,35)$.
 
-#### Solution
+**_Solution_**
 
 $$ %Aligned
 \begin{aligned}
@@ -221,11 +221,11 @@ $$
 
 To find $x$ and $y$ we must use the _Euclidean Algorithm_ in reverse.
 
-### Example
+**Example**
 
 Find $x,y$ such that $1 = 78x + 35y$.
 
-#### Solution
+**_Solution_**
 
 $$ %Aligned
 \begin{aligned}
@@ -292,7 +292,7 @@ _definition_: If $a,b \neq 0$ are integers, we say $\ell$ is their __least commo
 
 and we write $\ell = \text{lcm}(a,b$).
 
-### Examples
+**Examples**
 
 * $\text{lcm}(3,4) = 12$
 * $\text{lcm}(4,6) = 12$

@@ -11,7 +11,7 @@ $$
 
 We typically define functions using equations (e.g. $f(x) = x^2$) but they can also be lists.
 
-### Example
+**Example**
 
 $$
 \begin{aligned}
@@ -94,7 +94,7 @@ __definitions__: For a function $f: A \mapsto B$,
     * _intuitive definition_: if $x_1 \neq n_2 \Rightarrow f(x_1) \neq f(x_2)$
     * _proof definition_: if $f(x_1) = f(x_2) \Rightarrow x_1 = x_2$
 
-### Example
+**Example**
 
 $$
 \begin{aligned}
@@ -110,7 +110,7 @@ $$
 \end{aligned}
 $$
 
-#### Solution
+**_Solution_**
 
 This is onto since every element in $B$ is mapped to. It is also one-to-one since every element in $A$ points to something different.
 
@@ -125,7 +125,7 @@ For a function $f: A \mapsto B$,
 
 ## Functions with Formulas
 
-### Example
+**Example**
 
 $$
     f(x) = \frac{3x + 4}{5}
@@ -135,7 +135,7 @@ where $f: \mathbb Z \mapsto \mathbb R$.
 
 Is $f$ one-to-one or onto?
 
-#### Solution
+**_Solution_**
 
 ##### Required to Prove One-to-One
 
@@ -186,7 +186,7 @@ $$
     \therefore \text{Not onto}
 $$
 
-#### Solution
+**_Solution_**
 
 If $f: \mathbb R \mapsto \mathbb R$ instead.
 
@@ -205,7 +205,7 @@ $$
     \therefore \text{Onto}
 $$
 
-### Example
+**Example**
 
 Let $f: \mathbb R \mapsto \mathbb R$ where,
 
@@ -215,7 +215,7 @@ $$
 \end{aligned}
 $$
 
-#### Solution
+**_Solution_**
 
 Not one-to-one since,
 
@@ -258,7 +258,7 @@ $$
 \end{aligned}
 $$
 
-### Example
+**Example**
 
 _definition_: The ceiling of $x$ is the function,
 
@@ -276,7 +276,7 @@ _definition_: Two functions $f$ and $g$ are equal if:
 * They have the same domain
 * $f(x) = g(x)$ for all $x$ in the domain of $f$
 
-### Example
+**Example**
 
 Let $f: \mathbb R \mapsto \mathbb Z$ defined by,
 
@@ -296,7 +296,7 @@ $$
     h(x) = \lfloor x \rfloor
 $$
 
-#### Solution
+**_Solution_**
 
 $f \neq g$ since they have different domains but the range of $h$ is equal to the range of $g$. However since they have different targets $h \neq g$.
 

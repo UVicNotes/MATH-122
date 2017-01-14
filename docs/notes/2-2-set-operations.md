@@ -15,11 +15,11 @@ $$
     A \cap B = \{ x : x \in A \wedge x \in B \}
 $$
 
-### Example
+**Example**
 
 Let $W = \{ a,b,c,d,e \}$ and $V = \{ a,b,c,x,y,z \}$.
 
-#### Solution
+**_Solution_**
 
 $$
     W \cup V = \{ a,b,c,d,e,x,y,z \}
@@ -29,14 +29,14 @@ $$
 $$
 
 
-### Example
+**Example**
 
 * $A = \{ a, b, c \}$
 * $B = \{x,y,z\}$
 * $C = \{a,b,x,z\}$
 * $\mathcal{U} = \{ a,b,x,y,z \}$
 
-#### Solution
+**_Solution_**
 
 
 ## Set Difference
@@ -125,7 +125,7 @@ $$
     (a,b) \neq (b,a)
 $$
 
-### Example
+**Example**
 
 $$
     A = \{ 1,2 \}
@@ -134,7 +134,7 @@ $$
     B = \{ x,y,z \}
 $$
 
-#### Solution
+**_Solution_**
 
 $$
     A \times B = \{ (1,x), (1,y), (1,z), (2,x), (2,y), (2,z) \}
@@ -184,7 +184,7 @@ $$
 $$
 
 
-### Example
+**Example**
 
 $$
     A = \{ 1,2 \}
@@ -194,7 +194,7 @@ $$
     \mathcal P (A) = \{ \{ 1 \}, \{ 2 \}, \{ 1,2 \}, \emptyset \}
 $$
 
-#### Solution
+**_Solution_**
 
 $$
     A \not\subseteq \mathcal P (A)
@@ -214,7 +214,7 @@ $$
 
 but it doesn't prove it.
 
-### Example
+**Example**
 
 Show by counter example that,
 
@@ -224,7 +224,7 @@ $$
 
 ![](http://www.math.csusb.edu/notes/sets/setsex5/venn3p.gif)
 
-#### Solution
+**_Solution_**
 
 * $A \to 2,3,5,6$
 * $B \to 3,4,5,7$

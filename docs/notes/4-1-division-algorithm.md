@@ -47,13 +47,13 @@ $$
     a \cdot \frac{1}{a} = 1
 $$
 
-### Example
+**Example**
 
 $\mathbb Z ^\text{o} =$ the set of odd integers.
 
 Is $\mathbb Z ^\text{o}$ closed under addition and multiplication?
 
-#### Solution
+**_Solution_**
 
 IT is not closed under addition since $5 + 3 = 8$.
 
@@ -95,11 +95,11 @@ Any set of natural numbers ($\mathbb N$) has a smallest element*.
 
 ## The Division Algorithm
 
-### Example
+**Example**
 
 Divide $278$ by $13$
 
-#### Solution
+**_Solution_**
 
 Can't do long division :(.
 
@@ -135,7 +135,7 @@ $$
 
 ## Number in Other Bases
 
-### Example
+**Example**
 
 Consider in base 10,
 
@@ -173,11 +173,11 @@ If $b \gt 1$, then every integer $n$ has a __unique__ base $b$ representation.
 
 > Proof in G. MacGillivray notes (NT pg. 4)
 
-### Example
+**Example**
 
 Convert $(613)_{10}$ to binary, octal and hexadecimal.
 
-#### Solution
+**_Solution_**
 
 ##### Binary (Method 1)
 
@@ -246,11 +246,11 @@ $$ %Aligned
 \end{aligned}
 $$
 
-### Example
+**Example**
 
 Convert $1222$ to hexadecimal.
 
-##### Solution
+**_Solution_**
 
 Use your calculator,
 

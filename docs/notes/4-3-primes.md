@@ -52,7 +52,7 @@ $$
 
 where $p_1$ is prime, and $e_i \ge 1$.
 
-### Examples
+**Examples**
 
 $$
 \begin{aligned}
@@ -97,7 +97,7 @@ and in fact $p^2 \mid a^2$.
 
 If $a = kb$, then $a$ and $kb$ have the same decomposition.
 
-### Example
+**Example**
 
 $$\begin{aligned}
     126 &= 2 \cdot 3^2 \cdot 7 \newline
@@ -177,11 +177,11 @@ If $n > 1$ is composite,
 
 then we know it has a prime divisor $p$ between $1 \le p \le \sqrt{n}$.
 
-### Example
+**Example**
 
 Is $353$ prime?
 
-#### Solution
+**_Solution_**
 
 $\sqrt{353} = 18.7$ so we need to test,
 
@@ -219,7 +219,7 @@ $$
 
 
 
-### Example
+**Example**
 
 Find $\gcd(270,1575)$. Using the $\mathcal{FTA}$,
 

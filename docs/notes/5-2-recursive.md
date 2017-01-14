@@ -7,7 +7,7 @@ _definition_: A __recursive definition of a sequence__, $a_n$, has two parts,
 2. A recursive function
     * e.g. $a_i = 2 \cdot a_{i-1}$
 
-### Example 1
+**Example** 1
 
 The sequence of numbers,
 
@@ -31,7 +31,7 @@ $$\begin{aligned}
 
 for all $n \ge 0$ (this is the closed form).
 
-### Example 2
+**Example** 2
 
 The Fibonacci Sequence is another example. It can be defined as,
 
@@ -44,7 +44,7 @@ $$\begin{aligned}
 
 for $n \ge 2$.
 
-### Example 3
+**Example** 3
 
 Consider,
 
@@ -53,7 +53,7 @@ $$\begin{aligned}
     a_n &= 3a_{n-1} + 1 \newline
 \end{aligned}$$
 
-#### Solution
+**_Solution_**
 
 $$\begin{aligned}
     a_0 &= 1 \newline
@@ -76,7 +76,7 @@ $$\begin{aligned}
 
 which isn't a closed form but is better.
 
-### Example
+**Example**
 
 Let $a_0 = 0$, $a_1 = 3$ and for $n \ge 2$,
 
@@ -84,7 +84,7 @@ $$\begin{aligned}
     a_n = a_{n-1} + 2a_{n-2}
 \end{aligned}$$
 
-#### Solution
+**_Solution_**
 
 $$\begin{aligned}
     a_0 &= 0 \newline

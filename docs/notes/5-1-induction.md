@@ -4,7 +4,7 @@
 
 The punctured $2^n \times 2^n$ chessboard can be tiled by the 3-square corner piece. Once you have the initial $2 \times 2$ board and you know the centre tile trick, you can solve any board.
 
-### Example
+**Example**
 
 Consider a line of dominos, $1,2,3,...,n-1,n,n+1,...$ where domino $n$ falls over. This infers that dominos $n+1,n+2,...$ will fall.
 
@@ -18,7 +18,7 @@ We need two things to ensure all the dominos fall over,
 _definition_:
 
 
-### Example
+**Example**
 
 Prove that for any natural number $n \gt 1$,
 
@@ -26,7 +26,7 @@ $$
     \sum_{i=1}^{n} i = \frac{n(n+1)}{2}
 $$
 
-#### Solution
+**_Solution_**
 
 Let $P(n)$ be the statement,
 
@@ -94,7 +94,7 @@ $$
 for all $n \in \mathbb N$.
 
 
-### Example
+**Example**
 
 Prove that for all $n \ge 1$,
 
@@ -102,7 +102,7 @@ $$\begin{aligned}
     \frac{1}{1\cdot2} + \frac{1}{2\cdot3} + \frac{1}{3\cdot4} + ... + \frac{1}{n(n+1)} &= \frac{n}{n+1} \newline
 \end{aligned}$$
 
-#### Solution
+**_Solution_**
 
 Let $P(n)$ be the statement,
 
@@ -163,11 +163,11 @@ $$\begin{aligned}
 
 since the left hand side is equal to the right hand side, $P(k+1)$ holds. Therefore, by induction, $P(n)$ holds for all $n \in \mathbb N$ where $n \ge 1$.
 
-### Example
+**Example**
 
 Prove that for $n \in \mathbb N$ where $n \ge 5$, $4n \le 2^n$.
 
-#### Solution
+**_Solution_**
 
 Let $P(n)$ be the statement,
 
@@ -225,7 +225,7 @@ $$\begin{aligned}
 since the left hand side is less than or equal to the right hand side, if $P(k)$ is true then $P(k+1)$ holds for all $k \in \mathbb N$ where $k \ge 5$. Therefore, by induction, $P(n)$ is true for all $n \in \mathbb N$.
 
 
-### Example
+**Example**
 
 Prove for $n \ge 1$,
 
@@ -233,7 +233,7 @@ $$
     2^n \mid (2n)!
 $$
 
-#### Solution
+**_Solution_**
 
 Let the tameness $P(n)$ be,
 
@@ -304,11 +304,11 @@ _definition_: Let $P(n)$ be a statement whose truth-value depends upon $n$. If t
 2. Suppose $P(m)$ is true for $n_0 \le m \lt k$.
 3. Show $P(k)$ is also true.
 
-### Example
+**Example**
 
 Show that any amount of postage greater than $12$ cents can be paid using only $3$ cent stamps and $7$ cent stamps.
 
-#### Solution
+**_Solution_**
 
 Let $P(n)$ be the statement,
 

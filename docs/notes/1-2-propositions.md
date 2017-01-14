@@ -76,11 +76,11 @@ $$ p \leftrightarrow q \iff (p \to q) \wedge (q \to p) \iff (\neg p \vee q) \wed
 
 ## Using Laws of Logic to prove logical equivalence
 
-### Example
+**Example**
 
 Show $ p \leftrightarrow q \iff (p \wedge q) \vee (\neg p \wedge \neg q) $.
 
-#### Solution
+**_Solution_**
 
 Proof:
 
@@ -108,11 +108,11 @@ By commution,
 
 $$ p \leftrightarrow q \iff (p \wedge q) \vee (\neg p \wedge \neg q) $$
 
-### Example
+**Example**
 
 Show $ \neg q \vee ( p \to q ) $ is a tautology.
 
-#### Solution
+**_Solution_**
 
 Proof:
 

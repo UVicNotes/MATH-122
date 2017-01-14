@@ -1,6 +1,6 @@
 # Section 3.2 - Inverses and Compositions
 
-### Example
+**Example**
 
 $$
 \begin{aligned}
@@ -26,7 +26,7 @@ $$
 \end{aligned}
 $$
 
-### Solution
+**_Solution_**
 
 $f$ is one-to-one and onto since every element in $B$ is related to exactly one element in $A$, it is therefore a bijection. $g$ is not one-to-one since both $3$ and $4$ map to $c$ but it is onto since every element in $C$ is mapped to.
 
@@ -59,7 +59,7 @@ To find the inverse,
 1. Switch $x$ and $y$,
 2. Solve for $y$.
 
-### Example
+**Example**
 
 Find $f^{-1}: \mathbb R \setminus \{ 1\} \mapsto \mathbb R \setminus \{2\}$ where,
 
@@ -67,7 +67,7 @@ $$
     f(x) = y =\frac{2x}{x-1}
 $$
 
-#### Solution
+**_Solution_**
 
 
 $$
@@ -102,7 +102,7 @@ $$
 $$
 
 
-### Example
+**Example**
 
 $$
 \begin{aligned}
@@ -119,7 +119,7 @@ $$
 \end{aligned}
 $$
 
-#### Solution
+**_Solution_**
 
 Potatoes.
 
@@ -215,7 +215,7 @@ $$ %Aligned
 \end{aligned}
 $$
 
-### Example
+**Example**
 
 $$ %Aligned
 \begin{aligned}
@@ -224,7 +224,7 @@ $$ %Aligned
 \end{aligned}
 $$
 
-#### Solution
+**_Solution_**
 
 $$ %Aligned
 \begin{aligned}

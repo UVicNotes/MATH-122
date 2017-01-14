@@ -5,7 +5,7 @@
 
 _definition_: The __cardinality__ of set $A$, denoted $|A|$, is the number of elements in set $A$.
 
-### Example
+**Example**
 
 $$ %Aligned
 \begin{aligned}
@@ -72,11 +72,11 @@ $$
 
 
 
-### Example
+**Example**
 
 Let $2 \mathbb Z = \{ ...,-4,-2,0,2,4,... \}$, show $|\mathbb Z| = |2 \mathbb Z|$.
 
-#### Solution
+**_Solution_**
 
 Define $f: \mathbb Z \mapsto \mathbb 2Z$, where,
 
@@ -246,11 +246,11 @@ This technique is called __Cantor Diagonalization__.
 
 A set $A$ is uncountable if it has an uncountable subset. So the real numbers $\mathbb R$ are uncountable since $(0,1) \subset \mathbb R$.
 
-### Example
+**Example**
 
 Is $[0,1]$ countable?
 
-#### Solution
+**_Solution_**
 
 $$
 \begin{aligned}

@@ -2,7 +2,7 @@
 
 _definition_: A __statement__ or __proposition__ has a truth value.
 
-### Examples
+**Examples**
 
 If we denote our statement as `p`.
 
@@ -106,7 +106,7 @@ $p$ is the _hypothesis_, $q$ is the _conclusion_.
 * $p$ is sufficient for $q$
 * $q$ is necessary for $p$
 
-### Examples
+**Examples**
 
 (9 is odd) $\to$ (cats have fur)
 
@@ -156,7 +156,7 @@ $$ \rightharpoondown ( p \wedge q ) = (\rightharpoondown p) \vee (\rightharpoond
 $$ \rightharpoondown ( p \vee q ) = (\rightharpoondown p) \wedge (\rightharpoondown q) $$
 
 
-### Example
+**Example**
 
 $p =$ "John owns a cat"
 
@@ -166,7 +166,7 @@ Find:
 
 $$ \rightharpoondown ( p \wedge q ) $$
 
-#### Solution
+**_Solution_**
 
 We only need to break on one half to negate it.
 
@@ -179,7 +179,7 @@ _definition_: The __contrapositive__ of $p \to q$ is written:
 
 $$ \rightharpoondown q ~ \to ~ \rightharpoondown p $$
 
-### Example
+**Example**
 
 The contrapositive of "If it rains in the morning I will bring an umbrella" is "If I did not bring an umbrella than it did not rain this morning".
 
@@ -189,7 +189,7 @@ _definition_: The __converse__[^f1] of $p \to q$ is written:
 
 $$ q \to p $$
 
-### Example
+**Example**
 
 The converse of "If it rains in the morning I will bring an umbrella" is "If I brought an umbrella it was raining this morning"[^f2].
 
@@ -225,12 +225,12 @@ _definition_: The __existential quantifier__ states that this statement applies 
 * There exists a...
 * $\exists$
 
-### Example
+**Example**
 
 "Some rectangles are squares" can be written "$\exists$ a rectangle $R$, such that $R$ is square"
 
 
-### Example
+**Example**
 
 Write the following in plain english:
 
@@ -238,11 +238,11 @@ $$ \forall x, \exists y, x + y = 0 $$
 
 Where the universe of $x$ and $y$ is the integers.
 
-#### Solution
+**_Solution_**
 
 For all integers $x$ there exists a $y$ such that the sum of $x$ and $y$ is zero.
 
-### Example
+**Example**
 
 Write the following in plain english:
 
@@ -250,7 +250,7 @@ $$ \exists y, \forall x, x + y = 0 $$
 
 Where the universe of $x$ and $y$ is the integers.
 
-#### Solution
+**_Solution_**
 
 This is not true because there not all $x$'s would make zero for any $y$.
 
@@ -259,13 +259,13 @@ This is not true because there not all $x$'s would make zero for any $y$.
 $$ \neg \forall ~ x, s(x) = \exists ~ x, \neg s(x) $$
 $$ \neg \exists ~ x, s(x) = \forall ~ x, \neg s(x) $$
 
-### Example
+**Example**
 
 Prove,
 
 $$ \neg (\forall ~ n \ge 0, n^2 - n + 41 ~\text{is prime}) $$
 
-#### Solution
+**_Solution_**
 
 This becomes,
 
@@ -285,6 +285,6 @@ $$ \mathbb{Q} = \text{The set of all rational numbers} $$
 
 $ \in $ denotes that something belongs to a set.
 
-### Example
+**Example**
 
 $$ x \in \mathbb{Z} = x \text{ is an integer} $$

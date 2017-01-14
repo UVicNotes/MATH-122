@@ -8,7 +8,7 @@ _definition_: A relation $\mathcal R$ on a set $A$ is an __equivalence relations
 2. Symmetric
 3. Transitive
 
-### Example
+**Example**
 
 Consider $\mathcal R$ on $\mathbb Z \times \mathbb Z$, defined by,
 
@@ -16,7 +16,7 @@ $$
     a \mathcal R b \iff a-b \text{ is a multiple of 3}.
 $$
 
-#### Solution
+**_Solution_**
 
 ##### Reflexivity
 
@@ -105,11 +105,11 @@ If $\sim$ is equivalent to $A$, then,
 1. The set of all its equivalence classes forms a partition of $A$
 2. If $x,y \in A$ then either $[x] = [y]$ or $[x] \cap [y] = \varnothing$
 
-### Example
+**Example**
 
 Let $\mathcal R \subseteq \mathbb Z \times \mathbb Z$, such that $(x,y) \in \mathcal R$. if and only if $a - b$ is a multiple of $3$.
 
-#### Solution
+**_Solution_**
 
 1) What elements are equivalent to $0$?
 
@@ -185,7 +185,7 @@ $$
     \mathbb Z = [0] \cup [1] \cup [2]
 $$
 
-### Example
+**Example**
 
 Let $A = \{ a,b,c,d,e,f \}$ and $\mathcal R = \{ (a,a), (b,b), ..., (f,e) \}$
 
@@ -207,11 +207,11 @@ From this we can tell that $\mathcal R$ is,
 3. Equivalence Classed (Each 'square' of $x$'s is an equivalence class.
 
 
-### Example
+**Example**
 
 Let $D = \{ \text{All binary strings of length } 5 \}$ and $\mathcal T$ be the relation on $ D \times D$ defined by $x \mathcal T y $ the first $3$ digits of $x$ match $y$.
 
-#### Solution
+**_Solution_**
 
 $$
 \begin{aligned}
