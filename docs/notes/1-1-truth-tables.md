@@ -1,5 +1,5 @@
 
-# Section 1.1 - Truth Tables
+# Section 1.1 &ndash; Truth Tables
 
 **Example**
 

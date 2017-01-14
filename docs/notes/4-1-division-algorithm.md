@@ -1,5 +1,5 @@
 
-# Section 4.1 - The Division Algorithm
+# Section 4.1 &ndash; The Division Algorithm
 
 ## Properties of $\mathbb Z$ vs $\mathbb R$
 

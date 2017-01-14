@@ -1,4 +1,4 @@
-# Section 4.4 -- Congruences
+# Section 4.4 &ndash; Congruences
 
 _definition_: For a natural number $n \gt 1$, given integers $a$ and $b$, we says, $a$ is __congruent__ to $b$ modulo $n$,
 

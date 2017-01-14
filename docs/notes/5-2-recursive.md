@@ -1,4 +1,4 @@
-# Section 5.2 -- Recursive Sequences
+# Section 5.2 &ndash; Recursive Sequences
 
 _definition_: A __recursive definition of a sequence__, $a_n$, has two parts,
 

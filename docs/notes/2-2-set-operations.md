@@ -1,3 +1,4 @@
+# Section 2.2 &ndash; Set Operations
 
 ## Union
 

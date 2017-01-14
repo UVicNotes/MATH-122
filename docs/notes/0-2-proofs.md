@@ -1,4 +1,4 @@
-# Section 0.2 - Proofs in Math
+# Section 0.2 &ndash; Proofs in Math
 
 To prove results, beyond those in formal logic, we use _word proofs_.
 

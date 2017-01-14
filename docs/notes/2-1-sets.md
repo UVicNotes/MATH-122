@@ -1,5 +1,5 @@
 
-# Section 2.1 - Sets
+# Section 2.1 &ndash; Sets
 
 _definition_: A __set__ is a collection of objects. The objects are called __elements__ or __members__.
 

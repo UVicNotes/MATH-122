@@ -1,4 +1,4 @@
-# Section 3.2 - Inverses and Compositions
+# Section 3.2 &ndash; Inverses and Compositions
 
 **Example**
 

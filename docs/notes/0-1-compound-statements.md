@@ -1,4 +1,4 @@
-# Section 0.1: Compound Statements
+# Section 0.1 &ndash; Compound Statements
 
 _definition_: A __statement__ or __proposition__ has a truth value.
 

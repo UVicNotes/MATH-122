@@ -1,5 +1,5 @@
 
-# Section 4.2 Divisibility & the Euclidean Algorithm
+# Section 4.2 &ndash; Divisibility & the Euclidean Algorithm
 
 __definition__: For integers $a$ and $b$, we say $a$ divides $b$, if $\exists k in \mathbb Z$ such that,
 

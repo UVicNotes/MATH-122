@@ -1,5 +1,5 @@
 
-# Section 2.3 - Binary Relations
+# Section 2.3 &ndash; Binary Relations
 
 _definition_: A __binary relation__  from a set $A$ to a set $B$ is a subset,
 

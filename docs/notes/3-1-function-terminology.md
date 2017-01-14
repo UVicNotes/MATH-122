@@ -1,5 +1,5 @@
 
-# Section 3.1: Basic Terminology
+# Section 3.1 &ndash; Basic Terminology
 
 _definition_: A __function__ from a set $A$ to $B$ is a binary relation where every element in $A$ corresponds to exactly one element in $B$. We write,
 

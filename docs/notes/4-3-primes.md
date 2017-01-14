@@ -1,4 +1,4 @@
-# Section 4.3 -- Primes
+# Section 4.3 &ndash; Primes
 
 _definition_: A natural number $p > 1$ is called a __prime number__ if it is divisible only by itself and $1$.
 

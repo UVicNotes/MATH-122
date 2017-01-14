@@ -1,5 +1,5 @@
 
-# Section 6.1 - Principal of Inclusion-Exclusion (PIE)
+# Section 6.1 &ndash; Principal of Inclusion-Exclusion (PIE)
 
 **Example**
 

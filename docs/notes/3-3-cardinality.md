@@ -1,5 +1,5 @@
 
-# Section 3.3 - One-to-one correspondences and the Cardinality of a Set
+# Section 3.3 &ndash; One-to-one correspondences and the Cardinality of a Set
 
 ## Cardinality
 

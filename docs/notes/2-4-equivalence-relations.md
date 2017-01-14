@@ -1,5 +1,5 @@
 
-# Section 2.4 Equivalence Relations
+# Section 2.4 &ndash; Equivalence Relations
 
 
 _definition_: A relation $\mathcal R$ on a set $A$ is an __equivalence relationship__ if it is,

@@ -1,4 +1,4 @@
-# Section 1.3 - Logical Arguments
+# Section 1.3 &ndash; Logical Arguments
 
 _definition_: an __argument__ is a type of implication, were we have many premises and one conclusion
 

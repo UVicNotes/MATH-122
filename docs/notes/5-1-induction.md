@@ -1,4 +1,4 @@
-# Section 5.1 -- Mathematical Induction
+# Section 5.1 &ndash; Mathematical Induction
 
 ### Fact
 

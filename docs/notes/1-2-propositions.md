@@ -1,4 +1,4 @@
-# Section 1.2 - The Algebra of Propositions
+# Section 1.2 &ndash; The Algebra of Propositions
 
 If a statement is always true we call it a __tautology__. For example,
 
