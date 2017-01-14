@@ -134,7 +134,7 @@
         
         <br>
         <a href="https://github.com/UVicNotes/MATH-122/commits/master" target="_blank" title="Last Updated">
-          Updated Jan 13, 2017
+          Updated Jan 14, 2017
         </a>
       </div>
     </div>
@@ -391,12 +391,6 @@
             </li>
           
             <li class="anchor">
-              <a title="Example" href="#example">
-                Example
-              </a>
-            </li>
-          
-            <li class="anchor">
               <a title="Induction" href="#induction">
                 Induction
               </a>
@@ -462,10 +456,10 @@
       <article class="article">
         <div class="wrapper">
           
-          <h1 id="section-51-mathematical-induction">Section 5.1 -- Mathematical Induction<a class="headerlink" href="#section-51-mathematical-induction" title="Permanent link">&para;</a></h1>
+          <h1 id="section-51-mathematical-induction">Section 5.1 &ndash; Mathematical Induction<a class="headerlink" href="#section-51-mathematical-induction" title="Permanent link">&para;</a></h1>
 <h3 id="fact">Fact<a class="headerlink" href="#fact" title="Permanent link">&para;</a></h3>
 <p>The punctured $2^n \times 2^n$ chessboard can be tiled by the 3-square corner piece. Once you have the initial $2 \times 2$ board and you know the centre tile trick, you can solve any board.</p>
-<h3 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
+<p><strong>Example</strong></p>
 <p>Consider a line of dominos, $1,2,3,...,n-1,n,n+1,...$ where domino $n$ falls over. This infers that dominos $n+1,n+2,...$ will fall.</p>
 <p>We need two things to ensure all the dominos fall over,</p>
 <ol>
@@ -474,14 +468,14 @@
 </ol>
 <h2 id="induction">Induction<a class="headerlink" href="#induction" title="Permanent link">&para;</a></h2>
 <p><em>definition</em>:</p>
-<h3 id="example_1">Example<a class="headerlink" href="#example_1" title="Permanent link">&para;</a></h3>
+<p><strong>Example</strong></p>
 <p>Prove that for any natural number $n \gt 1$,</p>
 <p>
 <script type="math/tex; mode=display">
     \sum_{i=1}^{n} i = \frac{n(n+1)}{2}
 </script>
 </p>
-<h4 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h4>
+<p><strong><em>Solution</em></strong></p>
 <p>Let $P(n)$ be the statement,</p>
 <p>
 <script type="math/tex; mode=display">
@@ -541,14 +535,14 @@
 </script>
 </p>
 <p>for all $n \in \mathbb N$.</p>
-<h3 id="example_2">Example<a class="headerlink" href="#example_2" title="Permanent link">&para;</a></h3>
+<p><strong>Example</strong></p>
 <p>Prove that for all $n \ge 1$,</p>
 <p>
 <script type="math/tex; mode=display">\begin{aligned}
     \frac{1}{1\cdot2} + \frac{1}{2\cdot3} + \frac{1}{3\cdot4} + ... + \frac{1}{n(n+1)} &= \frac{n}{n+1} \newline
 \end{aligned}</script>
 </p>
-<h4 id="solution_1">Solution<a class="headerlink" href="#solution_1" title="Permanent link">&para;</a></h4>
+<p><strong><em>Solution</em></strong></p>
 <p>Let $P(n)$ be the statement,</p>
 <p>
 <script type="math/tex; mode=display">\begin{aligned}
@@ -602,9 +596,9 @@
 \end{aligned}</script>
 </p>
 <p>since the left hand side is equal to the right hand side, $P(k+1)$ holds. Therefore, by induction, $P(n)$ holds for all $n \in \mathbb N$ where $n \ge 1$.</p>
-<h3 id="example_3">Example<a class="headerlink" href="#example_3" title="Permanent link">&para;</a></h3>
+<p><strong>Example</strong></p>
 <p>Prove that for $n \in \mathbb N$ where $n \ge 5$, $4n \le 2^n$.</p>
-<h4 id="solution_2">Solution<a class="headerlink" href="#solution_2" title="Permanent link">&para;</a></h4>
+<p><strong><em>Solution</em></strong></p>
 <p>Let $P(n)$ be the statement,</p>
 <p>
 <script type="math/tex; mode=display">
@@ -654,14 +648,14 @@
 \end{aligned}</script>
 </p>
 <p>since the left hand side is less than or equal to the right hand side, if $P(k)$ is true then $P(k+1)$ holds for all $k \in \mathbb N$ where $k \ge 5$. Therefore, by induction, $P(n)$ is true for all $n \in \mathbb N$.</p>
-<h3 id="example_4">Example<a class="headerlink" href="#example_4" title="Permanent link">&para;</a></h3>
+<p><strong>Example</strong></p>
 <p>Prove for $n \ge 1$,</p>
 <p>
 <script type="math/tex; mode=display">
     2^n \mid (2n)!
 </script>
 </p>
-<h4 id="solution_3">Solution<a class="headerlink" href="#solution_3" title="Permanent link">&para;</a></h4>
+<p><strong><em>Solution</em></strong></p>
 <p>Let the tameness $P(n)$ be,</p>
 <p>
 <script type="math/tex; mode=display">
@@ -725,9 +719,9 @@
 <li>Suppose $P(m)$ is true for $n_0 \le m \lt k$.</li>
 <li>Show $P(k)$ is also true.</li>
 </ol>
-<h3 id="example_5">Example<a class="headerlink" href="#example_5" title="Permanent link">&para;</a></h3>
+<p><strong>Example</strong></p>
 <p>Show that any amount of postage greater than $12$ cents can be paid using only $3$ cent stamps and $7$ cent stamps.</p>
-<h4 id="solution_4">Solution<a class="headerlink" href="#solution_4" title="Permanent link">&para;</a></h4>
+<p><strong><em>Solution</em></strong></p>
 <p>Let $P(n)$ be the statement,</p>
 <p>
 <script type="math/tex; mode=display">\begin{aligned}
