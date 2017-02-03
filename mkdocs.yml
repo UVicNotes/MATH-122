@@ -44,6 +44,9 @@ markdown_extensions:
     - admonition
     - toc:
         permalink: True
+google_analytics:
+  - 'UA-91401009-1'
+  - 'auto'
 extra:
   version: 'Summer 2015'
   palette:
