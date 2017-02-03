@@ -193,13 +193,7 @@
        */
     /*
        * Light permalinks
-       */
-    /*
-       * Data table headings
-       */
-    /*
-      * Math
-      */ }
+       */ }
     .palette-primary-red .article a {
       color: #e84e40; }
     .ios.standalone .palette-primary-red .article {
@@ -207,10 +201,6 @@
       background: linear-gradient(to bottom, white 50%, #e84e40 50%); }
     .palette-primary-red .article .headerlink:before {
       color: rgba(0, 0, 0, 0.26); }
-    .palette-primary-red .article table th {
-      background: #ee7a70; }
-    .palette-primary-red .article .MathJax, .palette-primary-red .article .MathJax .mi {
-      color: #e84e40; }
   .palette-primary-red .results .meta {
     background: #e84e40; }
   .palette-primary-red .admonition {
@@ -288,13 +278,7 @@
        */
     /*
        * Light permalinks
-       */
-    /*
-       * Data table headings
-       */
-    /*
-      * Math
-      */ }
+       */ }
     .palette-primary-pink .article a {
       color: #e91e63; }
     .ios.standalone .palette-primary-pink .article {
@@ -302,10 +286,6 @@
       background: linear-gradient(to bottom, white 50%, #e91e63 50%); }
     .palette-primary-pink .article .headerlink:before {
       color: rgba(0, 0, 0, 0.26); }
-    .palette-primary-pink .article table th {
-      background: #ef568a; }
-    .palette-primary-pink .article .MathJax, .palette-primary-pink .article .MathJax .mi {
-      color: #e91e63; }
   .palette-primary-pink .results .meta {
     background: #e91e63; }
   .palette-primary-pink .admonition {
@@ -383,13 +363,7 @@
        */
     /*
        * Light permalinks
-       */
-    /*
-       * Data table headings
-       */
-    /*
-      * Math
-      */ }
+       */ }
     .palette-primary-purple .article a {
       color: #ab47bc; }
     .ios.standalone .palette-primary-purple .article {
@@ -397,10 +371,6 @@
       background: linear-gradient(to bottom, white 50%, #ab47bc 50%); }
     .palette-primary-purple .article .headerlink:before {
       color: rgba(0, 0, 0, 0.26); }
-    .palette-primary-purple .article table th {
-      background: #c075cd; }
-    .palette-primary-purple .article .MathJax, .palette-primary-purple .article .MathJax .mi {
-      color: #ab47bc; }
   .palette-primary-purple .results .meta {
     background: #ab47bc; }
   .palette-primary-purple .admonition {
@@ -478,13 +448,7 @@
        */
     /*
        * Light permalinks
-       */
-    /*
-       * Data table headings
-       */
-    /*
-      * Math
-      */ }
+       */ }
     .palette-primary-deep-purple .article a {
       color: #7e57c2; }
     .ios.standalone .palette-primary-deep-purple .article {
@@ -492,10 +456,6 @@
       background: linear-gradient(to bottom, white 50%, #7e57c2 50%); }
     .palette-primary-deep-purple .article .headerlink:before {
       color: rgba(0, 0, 0, 0.26); }
-    .palette-primary-deep-purple .article table th {
-      background: #9e81d1; }
-    .palette-primary-deep-purple .article .MathJax, .palette-primary-deep-purple .article .MathJax .mi {
-      color: #7e57c2; }
   .palette-primary-deep-purple .results .meta {
     background: #7e57c2; }
   .palette-primary-deep-purple .admonition {
@@ -573,13 +533,7 @@
        */
     /*
        * Light permalinks
-       */
-    /*
-       * Data table headings
-       */
-    /*
-      * Math
-      */ }
+       */ }
     .palette-primary-indigo .article a {
       color: #3f51b5; }
     .ios.standalone .palette-primary-indigo .article {
@@ -587,10 +541,6 @@
       background: linear-gradient(to bottom, white 50%, #3f51b5 50%); }
     .palette-primary-indigo .article .headerlink:before {
       color: rgba(0, 0, 0, 0.26); }
-    .palette-primary-indigo .article table th {
-      background: #6f7dc8; }
-    .palette-primary-indigo .article .MathJax, .palette-primary-indigo .article .MathJax .mi {
-      color: #3f51b5; }
   .palette-primary-indigo .results .meta {
     background: #3f51b5; }
   .palette-primary-indigo .admonition {
@@ -668,13 +618,7 @@
        */
     /*
        * Light permalinks
-       */
-    /*
-       * Data table headings
-       */
-    /*
-      * Math
-      */ }
+       */ }
     .palette-primary-blue .article a {
       color: #2196F3; }
     .ios.standalone .palette-primary-blue .article {
@@ -682,10 +626,6 @@
       background: linear-gradient(to bottom, white 50%, #2196F3 50%); }
     .palette-primary-blue .article .headerlink:before {
       color: rgba(0, 0, 0, 0.26); }
-    .palette-primary-blue .article table th {
-      background: #59b0f6; }
-    .palette-primary-blue .article .MathJax, .palette-primary-blue .article .MathJax .mi {
-      color: #2196F3; }
   .palette-primary-blue .results .meta {
     background: #2196F3; }
   .palette-primary-blue .admonition {
@@ -763,13 +703,7 @@
        */
     /*
        * Light permalinks
-       */
-    /*
-       * Data table headings
-       */
-    /*
-      * Math
-      */ }
+       */ }
     .palette-primary-light-blue .article a {
       color: #03a9f4; }
     .ios.standalone .palette-primary-light-blue .article {
@@ -777,10 +711,6 @@
       background: linear-gradient(to bottom, white 50%, #03a9f4 50%); }
     .palette-primary-light-blue .article .headerlink:before {
       color: rgba(0, 0, 0, 0.26); }
-    .palette-primary-light-blue .article table th {
-      background: #42bff7; }
-    .palette-primary-light-blue .article .MathJax, .palette-primary-light-blue .article .MathJax .mi {
-      color: #03a9f4; }
   .palette-primary-light-blue .results .meta {
     background: #03a9f4; }
   .palette-primary-light-blue .admonition {
@@ -858,13 +788,7 @@
        */
     /*
        * Light permalinks
-       */
-    /*
-       * Data table headings
-       */
-    /*
-      * Math
-      */ }
+       */ }
     .palette-primary-cyan .article a {
       color: #00bcd4; }
     .ios.standalone .palette-primary-cyan .article {
@@ -872,10 +796,6 @@
       background: linear-gradient(to bottom, white 50%, #00bcd4 50%); }
     .palette-primary-cyan .article .headerlink:before {
       color: rgba(0, 0, 0, 0.26); }
-    .palette-primary-cyan .article table th {
-      background: #40cddf; }
-    .palette-primary-cyan .article .MathJax, .palette-primary-cyan .article .MathJax .mi {
-      color: #00bcd4; }
   .palette-primary-cyan .results .meta {
     background: #00bcd4; }
   .palette-primary-cyan .admonition {
@@ -953,13 +873,7 @@
        */
     /*
        * Light permalinks
-       */
-    /*
-       * Data table headings
-       */
-    /*
-      * Math
-      */ }
+       */ }
     .palette-primary-teal .article a {
       color: #009688; }
     .ios.standalone .palette-primary-teal .article {
@@ -967,10 +881,6 @@
       background: linear-gradient(to bottom, white 50%, #009688 50%); }
     .palette-primary-teal .article .headerlink:before {
       color: rgba(0, 0, 0, 0.26); }
-    .palette-primary-teal .article table th {
-      background: #40b0a6; }
-    .palette-primary-teal .article .MathJax, .palette-primary-teal .article .MathJax .mi {
-      color: #009688; }
   .palette-primary-teal .results .meta {
     background: #009688; }
   .palette-primary-teal .admonition {
@@ -1048,13 +958,7 @@
        */
     /*
        * Light permalinks
-       */
-    /*
-       * Data table headings
-       */
-    /*
-      * Math
-      */ }
+       */ }
     .palette-primary-green .article a {
       color: #4caf50; }
     .ios.standalone .palette-primary-green .article {
@@ -1062,10 +966,6 @@
       background: linear-gradient(to bottom, white 50%, #4caf50 50%); }
     .palette-primary-green .article .headerlink:before {
       color: rgba(0, 0, 0, 0.26); }
-    .palette-primary-green .article table th {
-      background: #79c37c; }
-    .palette-primary-green .article .MathJax, .palette-primary-green .article .MathJax .mi {
-      color: #4caf50; }
   .palette-primary-green .results .meta {
     background: #4caf50; }
   .palette-primary-green .admonition {
@@ -1143,13 +1043,7 @@
        */
     /*
        * Light permalinks
-       */
-    /*
-       * Data table headings
-       */
-    /*
-      * Math
-      */ }
+       */ }
     .palette-primary-light-green .article a {
       color: #7cb342; }
     .ios.standalone .palette-primary-light-green .article {
@@ -1157,10 +1051,6 @@
       background: linear-gradient(to bottom, white 50%, #7cb342 50%); }
     .palette-primary-light-green .article .headerlink:before {
       color: rgba(0, 0, 0, 0.26); }
-    .palette-primary-light-green .article table th {
-      background: #9dc671; }
-    .palette-primary-light-green .article .MathJax, .palette-primary-light-green .article .MathJax .mi {
-      color: #7cb342; }
   .palette-primary-light-green .results .meta {
     background: #7cb342; }
   .palette-primary-light-green .admonition {
@@ -1238,13 +1128,7 @@
        */
     /*
        * Light permalinks
-       */
-    /*
-       * Data table headings
-       */
-    /*
-      * Math
-      */ }
+       */ }
     .palette-primary-lime .article a {
       color: #c0ca33; }
     .ios.standalone .palette-primary-lime .article {
@@ -1252,10 +1136,6 @@
       background: linear-gradient(to bottom, white 50%, #c0ca33 50%); }
     .palette-primary-lime .article .headerlink:before {
       color: rgba(0, 0, 0, 0.26); }
-    .palette-primary-lime .article table th {
-      background: #d0d766; }
-    .palette-primary-lime .article .MathJax, .palette-primary-lime .article .MathJax .mi {
-      color: #c0ca33; }
   .palette-primary-lime .results .meta {
     background: #c0ca33; }
   .palette-primary-lime .admonition {
@@ -1333,13 +1213,7 @@
        */
     /*
        * Light permalinks
-       */
-    /*
-       * Data table headings
-       */
-    /*
-      * Math
-      */ }
+       */ }
     .palette-primary-yellow .article a {
       color: #f9a825; }
     .ios.standalone .palette-primary-yellow .article {
@@ -1347,10 +1221,6 @@
       background: linear-gradient(to bottom, white 50%, #f9a825 50%); }
     .palette-primary-yellow .article .headerlink:before {
       color: rgba(0, 0, 0, 0.26); }
-    .palette-primary-yellow .article table th {
-      background: #fbbe5c; }
-    .palette-primary-yellow .article .MathJax, .palette-primary-yellow .article .MathJax .mi {
-      color: #f9a825; }
   .palette-primary-yellow .results .meta {
     background: #f9a825; }
   .palette-primary-yellow .admonition {
@@ -1428,13 +1298,7 @@
        */
     /*
        * Light permalinks
-       */
-    /*
-       * Data table headings
-       */
-    /*
-      * Math
-      */ }
+       */ }
     .palette-primary-amber .article a {
       color: #ffb300; }
     .ios.standalone .palette-primary-amber .article {
@@ -1442,10 +1306,6 @@
       background: linear-gradient(to bottom, white 50%, #ffb300 50%); }
     .palette-primary-amber .article .headerlink:before {
       color: rgba(0, 0, 0, 0.26); }
-    .palette-primary-amber .article table th {
-      background: #ffc640; }
-    .palette-primary-amber .article .MathJax, .palette-primary-amber .article .MathJax .mi {
-      color: #ffb300; }
   .palette-primary-amber .results .meta {
     background: #ffb300; }
   .palette-primary-amber .admonition {
@@ -1523,13 +1383,7 @@
        */
     /*
        * Light permalinks
-       */
-    /*
-       * Data table headings
-       */
-    /*
-      * Math
-      */ }
+       */ }
     .palette-primary-orange .article a {
       color: #fb8c00; }
     .ios.standalone .palette-primary-orange .article {
@@ -1537,10 +1391,6 @@
       background: linear-gradient(to bottom, white 50%, #fb8c00 50%); }
     .palette-primary-orange .article .headerlink:before {
       color: rgba(0, 0, 0, 0.26); }
-    .palette-primary-orange .article table th {
-      background: #fca940; }
-    .palette-primary-orange .article .MathJax, .palette-primary-orange .article .MathJax .mi {
-      color: #fb8c00; }
   .palette-primary-orange .results .meta {
     background: #fb8c00; }
   .palette-primary-orange .admonition {
@@ -1618,13 +1468,7 @@
        */
     /*
        * Light permalinks
-       */
-    /*
-       * Data table headings
-       */
-    /*
-      * Math
-      */ }
+       */ }
     .palette-primary-deep-orange .article a {
       color: #ff7043; }
     .ios.standalone .palette-primary-deep-orange .article {
@@ -1632,10 +1476,6 @@
       background: linear-gradient(to bottom, white 50%, #ff7043 50%); }
     .palette-primary-deep-orange .article .headerlink:before {
       color: rgba(0, 0, 0, 0.26); }
-    .palette-primary-deep-orange .article table th {
-      background: #ff9472; }
-    .palette-primary-deep-orange .article .MathJax, .palette-primary-deep-orange .article .MathJax .mi {
-      color: #ff7043; }
   .palette-primary-deep-orange .results .meta {
     background: #ff7043; }
   .palette-primary-deep-orange .admonition {
@@ -1713,13 +1553,7 @@
        */
     /*
        * Light permalinks
-       */
-    /*
-       * Data table headings
-       */
-    /*
-      * Math
-      */ }
+       */ }
     .palette-primary-brown .article a {
       color: #795548; }
     .ios.standalone .palette-primary-brown .article {
@@ -1727,10 +1561,6 @@
       background: linear-gradient(to bottom, white 50%, #795548 50%); }
     .palette-primary-brown .article .headerlink:before {
       color: rgba(0, 0, 0, 0.26); }
-    .palette-primary-brown .article table th {
-      background: #9b8076; }
-    .palette-primary-brown .article .MathJax, .palette-primary-brown .article .MathJax .mi {
-      color: #795548; }
   .palette-primary-brown .results .meta {
     background: #795548; }
   .palette-primary-brown .admonition {
@@ -1808,13 +1638,7 @@
        */
     /*
        * Light permalinks
-       */
-    /*
-       * Data table headings
-       */
-    /*
-      * Math
-      */ }
+       */ }
     .palette-primary-grey .article a {
       color: #757575; }
     .ios.standalone .palette-primary-grey .article {
@@ -1822,10 +1646,6 @@
       background: linear-gradient(to bottom, white 50%, #757575 50%); }
     .palette-primary-grey .article .headerlink:before {
       color: rgba(0, 0, 0, 0.26); }
-    .palette-primary-grey .article table th {
-      background: #989898; }
-    .palette-primary-grey .article .MathJax, .palette-primary-grey .article .MathJax .mi {
-      color: #757575; }
   .palette-primary-grey .results .meta {
     background: #757575; }
   .palette-primary-grey .admonition {
@@ -1903,13 +1723,7 @@
        */
     /*
        * Light permalinks
-       */
-    /*
-       * Data table headings
-       */
-    /*
-      * Math
-      */ }
+       */ }
     .palette-primary-blue-grey .article a {
       color: #546e7a; }
     .ios.standalone .palette-primary-blue-grey .article {
@@ -1917,10 +1731,6 @@
       background: linear-gradient(to bottom, white 50%, #546e7a 50%); }
     .palette-primary-blue-grey .article .headerlink:before {
       color: rgba(0, 0, 0, 0.26); }
-    .palette-primary-blue-grey .article table th {
-      background: #7f929b; }
-    .palette-primary-blue-grey .article .MathJax, .palette-primary-blue-grey .article .MathJax .mi {
-      color: #546e7a; }
   .palette-primary-blue-grey .results .meta {
     background: #546e7a; }
   .palette-primary-blue-grey .admonition {
