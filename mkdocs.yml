@@ -35,7 +35,7 @@ pages:
 - Inclusion-Exclusion (Ch. 6):
     - 'Pricipal of Inclusion-Exclusion': 'notes/6-1-pie.md'
 extra_javascript:
-    - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
     - https://cdn.rawgit.com/UVicNotes/UVicNotes/81099952ba789829fab1840e5d26cb5a2bf62011/helpers/mathjax.js
 markdown_extensions:
     - mdx_math
